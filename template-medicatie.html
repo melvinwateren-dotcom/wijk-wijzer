@@ -182,6 +182,6 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
   </div>
 </div>
 <button class="print-btn" onclick="setTimeout(()=>window.print(),300)">⬇ Opslaan als PDF</button>
-<script>new QRCode(document.getElementById("qrcode"),{text:"https://bhvklaar.nl/medicatie-training/",width:84,height:84,colorDark:"#0B1A3E",colorLight:"#FFFFFF",correctLevel:QRCode.CorrectLevel.M});</script>
+<script>new QRCode(document.getElementById("qrcode"),{text:"https://bhvklaar.nl/verificatie?code="+document.querySelector(".cert-nr strong").textContent.trim(),width:84,height:84,colorDark:"#0B1A3E",colorLight:"#FFFFFF",correctLevel:QRCode.CorrectLevel.M});</script>
 </body>
 </html>

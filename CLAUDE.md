@@ -79,11 +79,19 @@ omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is l
 - **Email:** info@bhvklaar.nl
 - **Plaats op certificaat:** Utrecht
 
-## QR-code URLs (staan al in de templates)
+## QR-code (verificatie)
 
-- BHV → https://bhvklaar.nl/bhv-opleiding/
-- Weerbaarheid → https://bhvklaar.nl/weerbaarheidstraining/
-- Medicatie → https://bhvklaar.nl/medicatie-training/
+De QR-code verwijst naar de verificatiepagina met het certificaatnummer (incl.
+suffix) als `code`-parameter — hetzelfde formaat als de officieel uitgegeven
+certificaten:
+
+```
+https://bhvklaar.nl/verificatie?code=<certificaatnummer>
+```
+
+Bijvoorbeeld: `https://bhvklaar.nl/verificatie?code=BHV-2026-00335-B3H7`. Zowel de
+templates (JS leest het nummer uit het certificaat) als `render-pdf.py` bouwen
+deze URL automatisch op uit het ingevulde certificaatnummer.
 
 ## Voorbeeld interactie
 
