@@ -1178,5 +1178,15 @@
         "geldig_tot": "09-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "VH-2026-00013-J4Z7": {
+        "naam": "J. Zweers",
+        "geboortedatum": "25-12-1999",
+        "cursus": "Voorbehouden Handelingen",
+        "certificaatnummer": "VH-2026-00013",
+        "behaald": "08-06-2026",
+        "geldig_tot": "08-06-2028",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
