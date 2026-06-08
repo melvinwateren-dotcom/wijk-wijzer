@@ -1158,5 +1158,25 @@
         "geldig_tot": "28-05-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "MED-2026-00155-B6H4": {
+        "naam": "Bilal Harchaoui",
+        "geboortedatum": "25-06-2000",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00155",
+        "behaald": "08-06-2026",
+        "geldig_tot": "08-06-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "BHV-2026-00335-B3H7": {
+        "naam": "Bilal Harchaoui",
+        "geboortedatum": "25-06-2000",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00335",
+        "behaald": "09-06-2026",
+        "geldig_tot": "09-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
