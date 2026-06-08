@@ -48,7 +48,7 @@ def render(in_path: str, out_path: str) -> None:
     html = Path(in_path).read_text(encoding="utf-8")
 
     # QR-URL uit de originele <script>new QRCode(... text:"...")> halen.
-    m = re.search(r'new QRCode\([^)]*?text\s*:\s*"([^"]+)"', html, flags=re.S)
+    m = re.search(r'new QRCode\(.*?text\s*:\s*"([^"]+)"', html, flags=re.S)
     qr_url = m.group(1) if m else "https://bhvklaar.nl/"
     html = html.replace('<div class="qr-box" id="qrcode"></div>',
                         f'<div class="qr-box"><img src="{qr_data_uri(qr_url)}"></div>')
