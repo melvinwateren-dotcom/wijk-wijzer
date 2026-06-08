@@ -1138,5 +1138,25 @@
         "geldig_tot": "05-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00151-N3R8": {
+        "naam": "Najima Redouni",
+        "geboortedatum": "19-03-1996",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00151",
+        "behaald": "28-05-2026",
+        "geldig_tot": "28-05-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00154-N6R4": {
+        "naam": "Najima Redouni",
+        "geboortedatum": "19-03-1996",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00154",
+        "behaald": "28-05-2026",
+        "geldig_tot": "28-05-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
