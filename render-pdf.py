@@ -10,7 +10,7 @@ Reproduceert de Chrome-print zo getrouw mogelijk zonder browser:
 
 Gebruik:  python3 render-pdf.py <invoer.html> [uitvoer.pdf]
 """
-import sys, re, base64, qrcode
+import sys, re, base64, glob, html as _html, qrcode
 from pathlib import Path
 from weasyprint import HTML
 
@@ -26,6 +26,30 @@ SIDEBAR_SVG = (
     '<polygon points="0,0 65,0 54.6,200 0,200" fill="url(#sg)"/>'
     '<polygon points="0,0 65,0 54.6,200 0,200" fill="url(#dots)"/></svg>'
 )
+
+
+def vertical_text_svg(raw: str) -> str:
+    """Verticale zijbalk-tekst als SVG (WeasyPrint negeert CSS `writing-mode`).
+
+    Tekent de tekst van onder naar boven, gecentreerd — zoals in het origineel.
+    """
+    txt = _html.unescape(raw).upper()
+    fs, ls = 1.76, 0.8  # mm: ~5pt lettergrootte, ~3px letter-spacing
+    try:
+        from PIL import ImageFont
+        font_path = next(iter(glob.glob('/usr/share/fonts/**/Montserrat*.ttf', recursive=True)))
+        length = ImageFont.truetype(font_path, 100).getlength(txt) * (fs / 100)
+    except Exception:
+        length = len(txt) * fs * 0.62          # ruwe schatting als fallback
+    length += (len(txt) - 1) * ls
+    h, w = length + 6, 6
+    esc = _html.escape(txt)
+    return (f'<svg width="{w}mm" height="{h:.1f}mm" viewBox="0 0 {w} {h:.1f}" '
+            f'xmlns="http://www.w3.org/2000/svg" style="display:block;overflow:visible;">'
+            f'<text transform="translate({w/2},{h/2}) rotate(-90)" text-anchor="middle" '
+            f'dominant-baseline="central" font-family="Montserrat" font-size="{fs}" '
+            f'font-weight="600" letter-spacing="{ls}" '
+            f'fill="rgba(255,255,255,0.25)">{esc}</text></svg>')
 
 
 def qr_data_uri(text: str) -> str:
@@ -61,6 +85,10 @@ def render(in_path: str, out_path: str) -> None:
     # Schuine zijbalk i.p.v. clip-path-divs.
     html = html.replace('<div class="bg-sidebar"></div><div class="bg-sidebar-dots"></div>',
                         SIDEBAR_SVG)
+
+    # Verticale zijbalk-tekst als SVG (writing-mode wordt niet ondersteund).
+    html = re.sub(r'<div class="vertical-text">(.*?)</div>',
+                  lambda m: vertical_text_svg(m.group(1)), html)
 
     # Externe netwerk-afhankelijkheden weg.
     html = re.sub(r'<link[^>]*fonts\.googleapis[^>]*>', '', html)

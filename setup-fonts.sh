@@ -5,8 +5,8 @@
 # De containeromgeving is efemeer: na een reset moet dit opnieuw draaien.
 set -euo pipefail
 
-echo ">> Python-pakketten (WeasyPrint + qrcode)"
-pip3 install --quiet --disable-pip-version-check weasyprint qrcode
+echo ">> Python-pakketten (WeasyPrint + qrcode + pillow)"
+pip3 install --quiet --disable-pip-version-check weasyprint qrcode pillow
 
 echo ">> Lettertypes ophalen via npm (bevatten .ttf-bestanden)"
 TMP="$(mktemp -d)"
