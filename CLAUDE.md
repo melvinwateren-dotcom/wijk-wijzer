@@ -22,6 +22,23 @@ Als iemand je vraagt een certificaat te maken, gebruik dan de HTML-templates in 
    - `XXXX-JJJJ-NNNNN` → certificaatnummer (zie nummering hieronder)
 3. **Sla op** als `voornaam-achternaam-type.html` (lowercase, streepjes)
 
+> Het op het certificaat getoonde nummer bevat de **suffix** (bijv.
+> `BHV-2026-00334-R4M7`), gelijk aan de sleutel in `certificaten-data.json`. De
+> suffix is `<eerste letter voornaam><cijfer><eerste letter achternaam><cijfer>`.
+
+## PDF genereren
+
+De certificaten zijn ontworpen voor Chrome-print (Ctrl/Cmd+P → liggend → PDF).
+Zonder browser kun je de PDF ook met WeasyPrint maken:
+
+```bash
+bash setup-fonts.sh                      # eenmalig per omgeving (fonts + tools)
+python3 render-pdf.py voornaam-achternaam-type.html
+```
+
+`render-pdf.py` genereert de QR-code, tekent de schuine zijbalk als SVG en sluit
+de lokale fonts (Montserrat/Playfair Display) in — zo benadert het de Chrome-print.
+
 ## Certificaatnummering
 
 Formaat: `TYPE-JAAR-VOLGNUMMER` (5 cijfers, met voorloopnullen)
