@@ -26,11 +26,33 @@ Als iemand je vraagt een certificaat te maken, gebruik dan de HTML-templates in 
 
 Formaat: `TYPE-JAAR-VOLGNUMMER` (5 cijfers, met voorloopnullen)
 
-- BHV: `BHV-2026-00284` (volgende beschikbare)
-- Weerbaarheid: `WB-2026-00120` (volgende beschikbare)
-- Medicatie: `MED-2026-00004` (volgende beschikbare)
+**Bron van waarheid:** `certificaten-data.json`. Dit bestand bevat alle uitgegeven
+certificaten. Bereken het eerstvolgende nummer altijd uit dit bestand: pak per
+`TYPE` het hoogste bestaande volgnummer en tel er 1 bij op. Werk het bestand bij
+na elke afgifte (voeg een record toe met sleutel `<certificaatnummer>-<suffix>`).
 
-**Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1 omhoog.
+Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.json`):
+
+| Type | Omschrijving | Eerstvolgende |
+|------|--------------|---------------|
+| BHV | Bedrijfshulpverlening | `BHV-2026-00335` |
+| WB | Weerbaarheid | `WB-2026-00151` |
+| MED | Medicatietoediening | `MED-2026-00154` |
+| EPI | Epilepsiezorg | `EPI-2026-00251` |
+| INS | Diabeteszorg (insuline) | `INS-2026-00045` |
+| TIL | Werken met Tilliften | `TIL-2026-00035` |
+| WZD | Wet Zorg en Dwang (e-learning) | `WZD-2026-00030` |
+| AGR | Agressiehantering | `AGR-2026-00025` |
+| HP | Herhaling Voorbehouden Handelingen | `HP-2026-00022` |
+| SLIK | Slikscholing | `SLIK-2026-00020` |
+| SOND | Sondevoeding | `SOND-2026-00016` |
+| VH | 12 Voorbehouden Handelingen | `VH-2026-00013` |
+
+> Alleen voor BHV, WB en MED bestaan HTML-templates in deze map. De overige
+> types staan wel in de nummering, maar hebben (nog) geen eigen template.
+
+**Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
+omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is leidend.
 
 ## Bedrijfsgegevens (staan al in de templates)
 
