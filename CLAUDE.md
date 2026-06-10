@@ -52,7 +52,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 
 | Type | Omschrijving | Eerstvolgende |
 |------|--------------|---------------|
-| BHV | Bedrijfshulpverlening | `BHV-2026-00337` |
+| BHV | Bedrijfshulpverlening | `BHV-2026-00338` |
 | WB | Weerbaarheid | `WB-2026-00152` |
 | MED | Medicatietoediening | `MED-2026-00157` |
 | EPI | Epilepsiezorg | `EPI-2026-00251` |
