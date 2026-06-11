@@ -1228,5 +1228,15 @@
         "geldig_tot": "12-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00339-S4M7": {
+        "naam": "Saber el Mariaoui",
+        "geboortedatum": "21-05-2005",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00339",
+        "behaald": "18-03-2026",
+        "geldig_tot": "18-03-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
