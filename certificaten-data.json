@@ -1268,5 +1268,15 @@
         "geldig_tot": "19-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00342-B4M7": {
+        "naam": "Burleson Marita Helen",
+        "geboortedatum": "07-01-1962",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00342",
+        "behaald": "19-06-2026",
+        "geldig_tot": "19-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
