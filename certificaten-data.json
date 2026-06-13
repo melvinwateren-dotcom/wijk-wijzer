@@ -1278,5 +1278,15 @@
         "geldig_tot": "19-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00343-S4O7": {
+        "naam": "Soumia Ouled Touhami",
+        "geboortedatum": "26-02-1996",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00343",
+        "behaald": "20-05-2026",
+        "geldig_tot": "20-05-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
