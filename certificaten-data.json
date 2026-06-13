@@ -1298,5 +1298,15 @@
         "geldig_tot": "15-06-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "VH-2026-00014-B5M2": {
+        "naam": "Burleson Marita Helen",
+        "geboortedatum": "07-01-1962",
+        "cursus": "Voorbehouden Handelingen",
+        "certificaatnummer": "VH-2026-00014",
+        "behaald": "19-06-2026",
+        "geldig_tot": "19-06-2028",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
