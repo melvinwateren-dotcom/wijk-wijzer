@@ -55,7 +55,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | BHV | Bedrijfshulpverlening | `BHV-2026-00344` |
 | WB | Weerbaarheid | `WB-2026-00152` |
 | MED | Medicatietoediening | `MED-2026-00158` |
-| EPI | Epilepsiezorg | `EPI-2026-00251` |
+| EPI | Epilepsiezorg | `EPI-2026-00252` |
 | INS | Diabeteszorg (insuline) | `INS-2026-00045` |
 | TIL | Werken met Tilliften | `TIL-2026-00035` |
 | WZD | Wet Zorg en Dwang (e-learning) | `WZD-2026-00030` |
@@ -65,8 +65,9 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | SOND | Sondevoeding | `SOND-2026-00016` |
 | VH | 12 Voorbehouden Handelingen | `VH-2026-00014` |
 
-> Alleen voor BHV, WB en MED bestaan HTML-templates in deze map. De overige
-> types staan wel in de nummering, maar hebben (nog) geen eigen template.
+> HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH) en
+> Epilepsiezorg (EPI). De overige types staan wel in de nummering, maar hebben
+> (nog) geen eigen template.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
 omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is leidend.
