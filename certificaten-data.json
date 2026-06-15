@@ -1338,5 +1338,15 @@
         "geldig_tot": "26-04-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00344-R4R7": {
+        "naam": "Rida Rakraki",
+        "geboortedatum": "31-10-1997",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00344",
+        "behaald": "20-02-2026",
+        "geldig_tot": "20-02-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
