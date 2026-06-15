@@ -1348,5 +1348,15 @@
         "geldig_tot": "20-02-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00345-M5A2": {
+        "naam": "Mohamed Ait Brahim",
+        "geboortedatum": "20-09-1990",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00345",
+        "behaald": "22-06-2026",
+        "geldig_tot": "22-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
