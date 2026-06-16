@@ -1398,5 +1398,15 @@
         "geldig_tot": "15-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00154-R4E7": {
+        "naam": "Randa El Azzouzi",
+        "geboortedatum": "18-02-1997",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00154",
+        "behaald": "19-06-2026",
+        "geldig_tot": "19-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
