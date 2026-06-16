@@ -1404,9 +1404,19 @@
         "geboortedatum": "18-02-1997",
         "cursus": "Professionele Weerbaarheid",
         "certificaatnummer": "WB-2026-00154",
+        "behaald": "19-06-2026",
+        "geldig_tot": "19-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00159-R5E2": {
+        "naam": "Randa El Azzouzi",
+        "geboortedatum": "18-02-1997",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00159",
         "behaald": "18-06-2026",
         "geldig_tot": "18-06-2027",
-        "instructeur": "Ilias El Allati",
+        "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
     }
 }

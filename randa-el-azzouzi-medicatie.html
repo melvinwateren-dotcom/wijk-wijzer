@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<title>Weerbaarheid Certificaat – NAAM INVULLEN</title>
+<title>Medicatietoediening Certificaat – NAAM INVULLEN</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -20,7 +20,7 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
 .bg-sidebar { position:absolute; top:0; left:0; width:65mm; height:200mm; background:linear-gradient(170deg,#0B1A3E 55%,#122150 100%); clip-path:polygon(0 0,100% 0,84% 100%,0 100%); }
 .bg-sidebar-dots { position:absolute; top:0; left:0; width:65mm; height:200mm; clip-path:polygon(0 0,100% 0,84% 100%,0 100%); background-image:radial-gradient(circle,rgba(255,255,255,0.06) 1px,transparent 1px); background-size:7mm 7mm; }
 .bg-footer { position:absolute; bottom:0; left:0; width:287mm; height:11mm; background:linear-gradient(90deg,var(--navy) 0%,var(--blue) 100%); }
-.bg-watermark { position:absolute; right:14mm; top:50%; transform:translateY(-50%); font-family:'Montserrat',sans-serif; font-size:90pt; font-weight:900; color:rgba(30,111,232,0.038); letter-spacing:-5px; pointer-events:none; user-select:none; z-index:0; }
+.bg-watermark { position:absolute; right:14mm; top:50%; transform:translateY(-50%); font-family:'Montserrat',sans-serif; font-size:72pt; font-weight:900; color:rgba(30,111,232,0.038); letter-spacing:-5px; pointer-events:none; user-select:none; z-index:0; }
 .corner { position:absolute; width:16mm; height:16mm; z-index:21; }
 .c-tl { top:4.5mm; left:4.5mm; } .c-tr { top:4.5mm; right:4.5mm; transform:scaleX(-1); }
 .c-bl { bottom:4.5mm; left:4.5mm; transform:scaleY(-1); } .c-br { bottom:4.5mm; right:4.5mm; transform:scale(-1,-1); }
@@ -40,7 +40,7 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
 .badge-text { font-size:6pt; font-weight:700; letter-spacing:3px; color:var(--gold); text-transform:uppercase; }
 .cert-nr { font-size:6pt; color:var(--gray); text-align:right; letter-spacing:0.5px; }
 .cert-nr strong { display:block; font-size:7pt; font-weight:700; color:var(--navy); letter-spacing:1px; margin-top:0.5mm; }
-.cert-title { font-family:'Playfair Display',serif; font-size:25pt; font-weight:700; color:var(--navy); line-height:1; margin-bottom:2mm; }
+.cert-title { font-family:'Playfair Display',serif; font-size:24pt; font-weight:700; color:var(--navy); line-height:1; margin-bottom:2mm; }
 .cert-title .accent { color:var(--bright); }
 .orn-row { display:flex; align-items:center; gap:2mm; margin-bottom:3mm; }
 .orn-diamond { width:5px; height:5px; background:var(--gold); transform:rotate(45deg); flex-shrink:0; }
@@ -91,7 +91,7 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
 <body>
 <div class="cert">
   <div class="bg-sidebar"></div><div class="bg-sidebar-dots"></div><div class="bg-footer"></div>
-  <div class="bg-watermark">WB</div>
+  <div class="bg-watermark">MED</div>
   <div class="corner c-tl"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
   <div class="corner c-tr"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
   <div class="corner c-bl"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
@@ -113,19 +113,19 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
     <div class="panel-divider"></div>
     <svg class="ecg-svg" viewBox="0 0 140 28" fill="none"><polyline points="0,14 22,14 30,3 38,25 46,14 60,14 68,7 76,21 84,14 98,14 106,4 112,24 118,14 140,14" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <div class="panel-divider"></div>
-    <div class="vertical-text">Weerbaarheid &amp; Veiligheid · Nederland</div>
+    <div class="vertical-text">Medicatietoediening · Nederland</div>
     <div class="panel-url">www.bhvklaar.nl</div>
   </div>
 
   <div class="main">
     <div class="header-row">
       <div class="badge"><div class="badge-dot"></div><div class="badge-text">Officieel Certificaat</div></div>
-      <!-- INVULLEN: certificaatnummer bijv. WB-2026-00120 -->
-      <div class="cert-nr">Certificaatnummer<strong>WB-2026-00154-R4E7</strong></div>
+      <!-- INVULLEN: certificaatnummer bijv. MED-2026-00004 -->
+      <div class="cert-nr">Certificaatnummer<strong>MED-2026-00159-R5E2</strong></div>
     </div>
-    <div class="cert-title">Professionele Weerbaarheid <span class="accent">Certificaat</span></div>
-    <div class="orn-row"><div class="orn-diamond"></div><div class="orn-line"></div><div class="orn-text">Weerbaarheid &amp; Veiligheid — BHVKlaar.nl</div><div class="orn-line" style="max-width:10mm;"></div></div>
-    <div class="declaration">Hierbij wordt verklaard dat onderstaande deelnemer met goed gevolg de training heeft afgerond en voldoet aan de gestelde eisen voor Professionele Weerbaarheid:</div>
+    <div class="cert-title">Medicatietoediening <span class="accent">Certificaat</span></div>
+    <div class="orn-row"><div class="orn-diamond"></div><div class="orn-line"></div><div class="orn-text">Medicatietoediening — BHVKlaar.nl</div><div class="orn-line" style="max-width:10mm;"></div></div>
+    <div class="declaration">Hierbij wordt verklaard dat onderstaande deelnemer met goed gevolg de opleiding heeft afgerond en voldoet aan de gestelde eisen voor Medicatietoediening:</div>
     <div class="name-block">
       <div class="name-label">Naam deelnemer</div>
       <!-- INVULLEN: volledige naam -->
@@ -134,30 +134,31 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
       <div class="name-dob">Geboortedatum:&ensp;<strong>18-02-1997</strong></div>
     </div>
     <div class="detail-grid">
-      <div class="detail-cell"><div class="d-label">Training</div><div class="d-value blue">Professionele Weerbaarheid</div></div>
+      <div class="detail-cell"><div class="d-label">Cursus</div><div class="d-value blue">Medicatietoediening</div></div>
       <!-- INVULLEN: datum behaald -->
-      <div class="detail-cell"><div class="d-label">Datum voltooiing</div><div class="d-value">19-06-2026</div></div>
+      <div class="detail-cell"><div class="d-label">Datum voltooiing</div><div class="d-value">18-06-2026</div></div>
       <!-- INVULLEN: datum + 1 jaar -->
-      <div class="detail-cell"><div class="d-label">Geldig t/m</div><div class="d-value gold">19-06-2027</div></div>
+      <div class="detail-cell"><div class="d-label">Geldig t/m</div><div class="d-value gold">18-06-2027</div></div>
       <div class="detail-cell"><div class="d-label">Geldigheidsduur</div><div class="d-value">1 jaar</div></div>
     </div>
     <div class="course-section">
-      <div class="course-heading">Trainingsinhoud — behandelde onderwerpen</div>
+      <div class="course-heading">Cursusinhoud — behandelde onderwerpen</div>
       <div class="course-grid">
-        <div class="module"><span class="module-tick">✓</span>Mentale weerbaarheid</div>
-        <div class="module"><span class="module-tick">✓</span>Agressie &amp; conflicthantering</div>
-        <div class="module"><span class="module-tick">✓</span>Grenzen stellen &amp; assertiviteit</div>
-        <div class="module"><span class="module-tick">✓</span>Stressmanagement</div>
-        <div class="module"><span class="module-tick">✓</span>Omgaan met intimidatie</div>
-        <div class="module"><span class="module-tick">✓</span>De-escalatietechnieken</div>
-        <div class="module"><span class="module-tick">✓</span>Zelfverdediging basisprincipes</div>
-        <div class="module"><span class="module-tick">✓</span>Praktijkoefeningen &amp; scenario's</div>
+        <div class="module"><span class="module-tick">✓</span>Wet- en regelgeving medicatie</div>
+        <div class="module"><span class="module-tick">✓</span>Soorten medicijnen &amp; werking</div>
+        <div class="module"><span class="module-tick">✓</span>Veilig toedienen van medicatie</div>
+        <div class="module"><span class="module-tick">✓</span>Bijwerkingen &amp; risico's</div>
+        <div class="module"><span class="module-tick">✓</span>Omgaan met noodmedicatie</div>
+        <div class="module"><span class="module-tick">✓</span>Verantwoordelijkheid &amp; dossier</div>
+        <div class="module"><span class="module-tick">✓</span>Insuline &amp; injecties basis</div>
+        <div class="module"><span class="module-tick">✓</span>Praktijkoefeningen &amp; toetsing</div>
       </div>
     </div>
   </div>
 
   <div class="sig-bar">
-    <div class="instructor-block"><div class="instr-line"></div><div class="instr-name">Ilias El Allati</div><div class="instr-title">Instructeur</div><div class="instr-company">BHVKlaar.nl</div></div>
+    <!-- INSTRUCTEUR: voor medicatie is dit Wendy Tiemens -->
+    <div class="instructor-block"><div class="instr-line"></div><div class="instr-name">Wendy Tiemens</div><div class="instr-title">Instructeur</div><div class="instr-company">BHVKlaar.nl</div></div>
     <div class="qr-block"><div class="qr-box" id="qrcode"></div><div class="qr-label">Scan voor verificatie</div><div class="qr-url">bhvklaar.nl</div></div>
     <div class="seal-block">
       <svg width="24mm" height="24mm" viewBox="0 0 90 90" fill="none">
@@ -167,11 +168,11 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
         <polyline points="37,40 40,40 42,35 44,45 46,40 48,40 50,37 52,43 55,43" fill="none" stroke="#1455B0" stroke-width="1.1" stroke-linecap="round"/>
         <text x="45" y="68" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="4.5" font-weight="700" fill="#0B1A3E" letter-spacing="1">GECERTIFICEERD</text>
         <text x="45" y="74.5" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.8" fill="#C9A84C" letter-spacing="0.5">BHVKLAAR.NL</text>
-        <text x="45" y="26" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.5" fill="#6B7A99" letter-spacing="1">WEERBAARHEID</text>
+        <text x="45" y="26" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.5" fill="#6B7A99" letter-spacing="1">MEDICATIE</text>
       </svg>
     </div>
     <!-- INVULLEN: plaats en datum -->
-    <div class="issued-block"><div class="issued-label">Plaats &amp; datum afgifte</div><div class="issued-value">Utrecht, 19-06-2026</div><div class="practijk-note">Dit certificaat is praktijkgericht<br>en klassikaal behaald via BHVKlaar.nl</div></div>
+    <div class="issued-block"><div class="issued-label">Plaats &amp; datum afgifte</div><div class="issued-value">Utrecht, 18-06-2026</div><div class="practijk-note">Dit certificaat is praktijkgericht<br>en klassikaal behaald via BHVKlaar.nl</div></div>
   </div>
 
   <div class="footer-bar">
