@@ -1378,5 +1378,25 @@
         "geldig_tot": "04-03-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00153-H4B7": {
+        "naam": "Hicham El Bouazzati",
+        "geboortedatum": "31-08-2002",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00153",
+        "behaald": "08-06-2026",
+        "geldig_tot": "08-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "BHV-2026-00347-H5B2": {
+        "naam": "Hicham El Bouazzati",
+        "geboortedatum": "31-08-2002",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00347",
+        "behaald": "15-06-2026",
+        "geldig_tot": "15-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
