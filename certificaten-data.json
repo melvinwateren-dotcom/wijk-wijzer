@@ -1438,5 +1438,15 @@
         "geldig_tot": "17-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00350-R5E3": {
+        "naam": "Redouan El Hankouri",
+        "geboortedatum": "03-02-2001",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00350",
+        "behaald": "04-06-2026",
+        "geldig_tot": "04-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
