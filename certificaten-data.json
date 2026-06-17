@@ -1448,5 +1448,15 @@
         "geldig_tot": "04-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00155-Y4B7": {
+        "naam": "Yacin Benhaddi",
+        "geboortedatum": "05-01-1999",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00155",
+        "behaald": "25-06-2026",
+        "geldig_tot": "25-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
