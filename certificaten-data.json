@@ -1588,5 +1588,25 @@
         "geldig_tot": "19-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00357-I4C7": {
+        "naam": "Ibrahim Choukoud",
+        "geboortedatum": "20-07-2001",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00357",
+        "behaald": "03-06-2026",
+        "geldig_tot": "03-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00159-I5C2": {
+        "naam": "Ibrahim Choukoud",
+        "geboortedatum": "20-07-2001",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00159",
+        "behaald": "25-05-2026",
+        "geldig_tot": "25-05-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
