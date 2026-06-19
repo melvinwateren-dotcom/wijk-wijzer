@@ -64,7 +64,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | SLIK | Slikscholing | `SLIK-2026-00020` |
 | SOND | Sondevoeding | `SOND-2026-00016` |
 | VH | 12 Voorbehouden Handelingen | `VH-2026-00016` |
-| WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00027` |
+| WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00028` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI) en Wondzorg (WOND). De overige types staan wel in de
