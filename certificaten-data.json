@@ -1495,7 +1495,17 @@
         "cursus": "BHV Basis",
         "certificaatnummer": "BHV-2026-00352",
         "behaald": "17-06-2026",
-        "geldig_tot": "17-06-2027",
+        "geldig_tot": "17-06-2028",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00156-N5A3": {
+        "naam": "Najlaa Assaf",
+        "geboortedatum": "01-07-2000",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00156",
+        "behaald": "19-06-2026",
+        "geldig_tot": "19-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
     }
