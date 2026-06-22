@@ -1678,5 +1678,15 @@
         "geldig_tot": "22-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00363-D4G7": {
+        "naam": "Dylan Groos",
+        "geboortedatum": "21-08-2000",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00363",
+        "behaald": "24-06-2026",
+        "geldig_tot": "24-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
