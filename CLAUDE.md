@@ -53,8 +53,8 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | Type | Omschrijving | Eerstvolgende |
 |------|--------------|---------------|
 | BHV | Bedrijfshulpverlening | `BHV-2026-00365` |
-| WB | Weerbaarheid | `WB-2026-00160` |
-| MED | Medicatietoediening | `MED-2026-00165` |
+| WB | Weerbaarheid | `WB-2026-00161` |
+| MED | Medicatietoediening | `MED-2026-00166` |
 | EPI | Epilepsiezorg | `EPI-2026-00252` |
 | INS | Diabeteszorg (insuline) | `INS-2026-00045` |
 | TIL | Werken met Tilliften | `TIL-2026-00035` |
@@ -62,13 +62,14 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | AGR | Agressiehantering | `AGR-2026-00025` |
 | HP | Herhaling Voorbehouden Handelingen | `HP-2026-00022` |
 | SLIK | Slikscholing | `SLIK-2026-00020` |
-| SOND | Sondevoeding | `SOND-2026-00016` |
+| SOND | Sondevoeding | `SOND-2026-00017` |
 | VH | 12 Voorbehouden Handelingen | `VH-2026-00016` |
 | WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00028` |
+| TRC | Triple-C Methodiek | `TRC-2026-00002` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
-> Epilepsiezorg (EPI) en Wondzorg (WOND). De overige types staan wel in de
-> nummering, maar hebben (nog) geen eigen template.
+> Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND) en Triple-C (TRC).
+> De overige types staan wel in de nummering, maar hebben (nog) geen template.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
 omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is leidend.

@@ -1690,12 +1690,52 @@
         "plaats": "Utrecht"
     },
     "BHV-2026-00364-Y5B2": {
-        "naam": "Y. Bibi",
+        "naam": "Yassin Bibi",
         "geboortedatum": "23-10-1995",
         "cursus": "BHV Basis",
         "certificaatnummer": "BHV-2026-00364",
         "behaald": "27-07-2026",
         "geldig_tot": "27-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00165-Y4B3": {
+        "naam": "Yassin Bibi",
+        "geboortedatum": "23-10-1995",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00165",
+        "behaald": "06-07-2026",
+        "geldig_tot": "06-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "SOND-2026-00016-Y6B4": {
+        "naam": "Yassin Bibi",
+        "geboortedatum": "23-10-1995",
+        "cursus": "Sondevoeding",
+        "certificaatnummer": "SOND-2026-00016",
+        "behaald": "06-07-2026",
+        "geldig_tot": "06-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00160-Y7B5": {
+        "naam": "Yassin Bibi",
+        "geboortedatum": "23-10-1995",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00160",
+        "behaald": "13-07-2026",
+        "geldig_tot": "13-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "TRC-2026-00001-Y8B6": {
+        "naam": "Yassin Bibi",
+        "geboortedatum": "23-10-1995",
+        "cursus": "Triple-C Methodiek",
+        "certificaatnummer": "TRC-2026-00001",
+        "behaald": "20-07-2026",
+        "geldig_tot": "20-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
     }
