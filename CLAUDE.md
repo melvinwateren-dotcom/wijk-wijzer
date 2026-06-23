@@ -52,9 +52,9 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 
 | Type | Omschrijving | Eerstvolgende |
 |------|--------------|---------------|
-| BHV | Bedrijfshulpverlening | `BHV-2026-00367` |
-| WB | Weerbaarheid | `WB-2026-00161` |
-| MED | Medicatietoediening | `MED-2026-00166` |
+| BHV | Bedrijfshulpverlening | `BHV-2026-00368` |
+| WB | Weerbaarheid | `WB-2026-00162` |
+| MED | Medicatietoediening | `MED-2026-00167` |
 | EPI | Epilepsiezorg | `EPI-2026-00252` |
 | INS | Diabeteszorg (insuline) | `INS-2026-00045` |
 | TIL | Werken met Tilliften | `TIL-2026-00035` |
@@ -65,7 +65,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | SOND | Sondevoeding | `SOND-2026-00017` |
 | VH | 12 Voorbehouden Handelingen | `VH-2026-00016` |
 | WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00028` |
-| TRC | Triple-C Methodiek | `TRC-2026-00029` |
+| TRC | Triple-C Methodiek | `TRC-2026-00030` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND) en Triple-C (TRC).
