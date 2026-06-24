@@ -180,6 +180,7 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
     <div class="footer-dots"><div class="footer-dot"></div><div class="footer-dot"></div><div class="footer-dot"></div></div>
     <div class="footer-right">www.bhvklaar.nl</div>
   </div>
+<svg style="position:absolute;top:0;left:0;width:287mm;height:200mm;z-index:9999;pointer-events:none;" viewBox="0 0 1085 756" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="vbpat" width="240" height="150" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)"><text x="6" y="80" font-family="Montserrat,sans-serif" font-size="30" font-weight="800" fill="#c81e1e" fill-opacity="0.16" letter-spacing="3">VOORBEELD</text></pattern></defs><rect width="1085" height="756" fill="url(#vbpat)"/></svg>
 </div>
 <button class="print-btn" onclick="setTimeout(()=>window.print(),300)">⬇ Opslaan als PDF</button>
 <script>new QRCode(document.getElementById("qrcode"),{text:"https://bhvklaar.nl/verificatie?code="+document.querySelector(".cert-nr strong").textContent.trim(),width:84,height:84,colorDark:"#0B1A3E",colorLight:"#FFFFFF",correctLevel:QRCode.CorrectLevel.M});</script>
