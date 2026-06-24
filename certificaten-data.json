@@ -1818,5 +1818,35 @@
         "geldig_tot": "24-07-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-VOORBEELD": {
+        "naam": "Voorbeeld Deelnemer",
+        "geboortedatum": "01-01-1990",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-VOORBEELD",
+        "behaald": "01-06-2026",
+        "geldig_tot": "01-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-VOORBEELD": {
+        "naam": "Voorbeeld Deelnemer",
+        "geboortedatum": "01-01-1990",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-VOORBEELD",
+        "behaald": "01-06-2026",
+        "geldig_tot": "01-06-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-VOORBEELD": {
+        "naam": "Voorbeeld Deelnemer",
+        "geboortedatum": "01-01-1990",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-VOORBEELD",
+        "behaald": "01-06-2026",
+        "geldig_tot": "01-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
