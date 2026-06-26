@@ -54,7 +54,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 |------|--------------|---------------|
 | BHV | Bedrijfshulpverlening | `BHV-2026-00374` |
 | WB | Weerbaarheid | `WB-2026-00166` |
-| MED | Medicatietoediening | `MED-2026-00171` |
+| MED | Medicatietoediening | `MED-2026-00172` |
 | EPI | Epilepsiezorg | `EPI-2026-00252` |
 | INS | Diabeteszorg (insuline) | `INS-2026-00045` |
 | TIL | Werken met Tilliften | `TIL-2026-00035` |
