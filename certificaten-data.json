@@ -1948,5 +1948,25 @@
         "geldig_tot": "30-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00373-F5A2": {
+        "naam": "Faouzi Abdain",
+        "geboortedatum": "05-08-1986",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00373",
+        "behaald": "25-06-2026",
+        "geldig_tot": "25-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00165-F6A3": {
+        "naam": "Faouzi Abdain",
+        "geboortedatum": "05-08-1986",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00165",
+        "behaald": "29-06-2026",
+        "geldig_tot": "29-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
