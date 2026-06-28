@@ -2028,5 +2028,25 @@
         "geldig_tot": "03-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "MED-2026-00172-N5C2": {
+        "naam": "Nabil Chouiter",
+        "geboortedatum": "23-03-1990",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00172",
+        "behaald": "01-07-2026",
+        "geldig_tot": "01-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "INS-2026-00045-N6C3": {
+        "naam": "Nabil Chouiter",
+        "geboortedatum": "23-03-1990",
+        "cursus": "Diabeteszorg",
+        "certificaatnummer": "INS-2026-00045",
+        "behaald": "01-07-2026",
+        "geldig_tot": "01-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }

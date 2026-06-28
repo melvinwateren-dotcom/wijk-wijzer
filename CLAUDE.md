@@ -54,9 +54,9 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 |------|--------------|---------------|
 | BHV | Bedrijfshulpverlening | `BHV-2026-00379` |
 | WB | Weerbaarheid | `WB-2026-00166` |
-| MED | Medicatietoediening | `MED-2026-00172` |
+| MED | Medicatietoediening | `MED-2026-00173` |
 | EPI | Epilepsiezorg | `EPI-2026-00252` |
-| INS | Diabeteszorg (insuline) | `INS-2026-00045` |
+| INS | Diabeteszorg (insuline) | `INS-2026-00046` |
 | TIL | Werken met Tilliften | `TIL-2026-00035` |
 | WZD | Wet Zorg en Dwang (e-learning) | `WZD-2026-00030` |
 | AGR | Agressiehantering | `AGR-2026-00025` |
@@ -68,8 +68,9 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | TRC | Triple-C Methodiek | `TRC-2026-00030` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
-> Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND) en Triple-C (TRC).
-> De overige types staan wel in de nummering, maar hebben (nog) geen template.
+> Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND), Triple-C (TRC) en
+> Diabeteszorg/insuline (INS). De overige types staan wel in de nummering, maar
+> hebben (nog) geen template.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
 omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is leidend.
