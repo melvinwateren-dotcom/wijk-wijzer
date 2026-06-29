@@ -2078,5 +2078,25 @@
         "geldig_tot": "17-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00383-A5S2": {
+        "naam": "Abdeljabar Seddoug",
+        "geboortedatum": "29-12-1977",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00383",
+        "behaald": "30-06-2026",
+        "geldig_tot": "30-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00166-A6S3": {
+        "naam": "Abdeljabar Seddoug",
+        "geboortedatum": "29-12-1977",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00166",
+        "behaald": "30-06-2026",
+        "geldig_tot": "30-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
