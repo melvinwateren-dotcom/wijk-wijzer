@@ -2058,5 +2058,15 @@
         "geldig_tot": "29-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00381-I5E2": {
+        "naam": "Ismail Ettalhaoui",
+        "geboortedatum": "04-11-2001",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00381",
+        "behaald": "26-06-2026",
+        "geldig_tot": "26-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
