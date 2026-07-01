@@ -2098,5 +2098,15 @@
         "geldig_tot": "30-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00384-M5A2": {
+        "naam": "Mohamed Amrani",
+        "geboortedatum": "14-12-2001",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00384",
+        "behaald": "24-06-2026",
+        "geldig_tot": "24-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
