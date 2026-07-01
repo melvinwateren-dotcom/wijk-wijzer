@@ -2108,5 +2108,35 @@
         "geldig_tot": "24-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00385-M5M2": {
+        "naam": "Mohamed el Mokadam",
+        "geboortedatum": "31-12-2001",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00385",
+        "behaald": "01-06-2026",
+        "geldig_tot": "01-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "AGR-2026-00025-M6M3": {
+        "naam": "Mohamed el Mokadam",
+        "geboortedatum": "31-12-2001",
+        "cursus": "Agressiehantering",
+        "certificaatnummer": "AGR-2026-00025",
+        "behaald": "01-06-2026",
+        "geldig_tot": "01-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00172-M7M4": {
+        "naam": "Mohamed el Mokadam",
+        "geboortedatum": "31-12-2001",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00172",
+        "behaald": "04-06-2026",
+        "geldig_tot": "04-06-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
