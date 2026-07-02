@@ -2158,5 +2158,25 @@
         "geldig_tot": "06-07-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "WZD-2026-00030-N7A4": {
+        "naam": "Najlaa Assaf",
+        "geboortedatum": "01-07-2000",
+        "cursus": "E-learning Wet Zorg en Dwang",
+        "certificaatnummer": "WZD-2026-00030",
+        "behaald": "07-07-2026",
+        "geldig_tot": "07-07-2027",
+        "instructeur": "E-learning BHVKlaar.nl",
+        "plaats": "Utrecht"
+    },
+    "TIL-2026-00035-N8A5": {
+        "naam": "Najlaa Assaf",
+        "geboortedatum": "01-07-2000",
+        "cursus": "Werken met Tilliften",
+        "certificaatnummer": "TIL-2026-00035",
+        "behaald": "07-07-2026",
+        "geldig_tot": "07-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
