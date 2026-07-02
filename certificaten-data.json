@@ -2138,5 +2138,25 @@
         "geldig_tot": "04-06-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "SLIK-2026-00020-N5A2": {
+        "naam": "Najlaa Assaf",
+        "geboortedatum": "01-07-2000",
+        "cursus": "Slikscholing",
+        "certificaatnummer": "SLIK-2026-00020",
+        "behaald": "06-07-2026",
+        "geldig_tot": "06-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "EPI-2026-00252-N6A3": {
+        "naam": "Najlaa Assaf",
+        "geboortedatum": "01-07-2000",
+        "cursus": "Epilepsiezorg",
+        "certificaatnummer": "EPI-2026-00252",
+        "behaald": "06-07-2026",
+        "geldig_tot": "06-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }

@@ -55,13 +55,13 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | BHV | Bedrijfshulpverlening | `BHV-2026-00386` |
 | WB | Weerbaarheid | `WB-2026-00167` |
 | MED | Medicatietoediening | `MED-2026-00173` |
-| EPI | Epilepsiezorg | `EPI-2026-00252` |
+| EPI | Epilepsiezorg | `EPI-2026-00253` |
 | INS | Diabeteszorg (insuline) | `INS-2026-00046` |
 | TIL | Werken met Tilliften | `TIL-2026-00035` |
 | WZD | Wet Zorg en Dwang (e-learning) | `WZD-2026-00030` |
 | AGR | Agressiehantering | `AGR-2026-00026` |
 | HP | Herhaling Voorbehouden Handelingen | `HP-2026-00022` |
-| SLIK | Slikscholing | `SLIK-2026-00020` |
+| SLIK | Slikscholing | `SLIK-2026-00021` |
 | SOND | Sondevoeding | `SOND-2026-00017` |
 | VH | 12 Voorbehouden Handelingen | `VH-2026-00016` |
 | WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00028` |
@@ -69,8 +69,8 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND), Triple-C (TRC),
-> Diabeteszorg/insuline (INS) en Agressiehantering (AGR). De overige types staan
-> wel in de nummering, maar hebben (nog) geen template.
+> Diabeteszorg/insuline (INS), Agressiehantering (AGR) en Slikscholing (SLIK). De
+> overige types staan wel in de nummering, maar hebben (nog) geen template.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
 omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is leidend.
