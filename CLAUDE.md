@@ -52,14 +52,14 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 
 | Type | Omschrijving | Eerstvolgende |
 |------|--------------|---------------|
-| BHV | Bedrijfshulpverlening | `BHV-2026-00392` |
+| BHV | Bedrijfshulpverlening | `BHV-2026-00393` |
 | WB | Weerbaarheid | `WB-2026-00167` |
-| MED | Medicatietoediening | `MED-2026-00173` |
+| MED | Medicatietoediening | `MED-2026-00174` |
 | EPI | Epilepsiezorg | `EPI-2026-00253` |
 | INS | Diabeteszorg (insuline) | `INS-2026-00046` |
 | TIL | Werken met Tilliften | `TIL-2026-00036` |
 | WZD | Wet Zorg en Dwang (e-learning) | `WZD-2026-00031` |
-| AGR | Agressiehantering | `AGR-2026-00026` |
+| AGR | Agressiehantering | `AGR-2026-00027` |
 | HP | Herhaling Voorbehouden Handelingen | `HP-2026-00022` |
 | SLIK | Slikscholing | `SLIK-2026-00021` |
 | SOND | Sondevoeding | `SOND-2026-00017` |
