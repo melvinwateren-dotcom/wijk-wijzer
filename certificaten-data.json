@@ -2198,5 +2198,15 @@
         "geldig_tot": "03-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "VH-2026-00016-A5L2": {
+        "naam": "Agnita Tence Lafantie",
+        "geboortedatum": "09-07-1969",
+        "cursus": "Voorbehouden Handelingen",
+        "certificaatnummer": "VH-2026-00016",
+        "behaald": "07-06-2026",
+        "geldig_tot": "07-06-2028",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }

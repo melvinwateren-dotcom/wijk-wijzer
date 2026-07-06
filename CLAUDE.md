@@ -63,7 +63,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | HP | Herhaling Voorbehouden Handelingen | `HP-2026-00022` |
 | SLIK | Slikscholing | `SLIK-2026-00021` |
 | SOND | Sondevoeding | `SOND-2026-00017` |
-| VH | 12 Voorbehouden Handelingen | `VH-2026-00016` |
+| VH | 12 Voorbehouden Handelingen | `VH-2026-00017` |
 | WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00028` |
 | TRC | Triple-C Methodiek | `TRC-2026-00030` |
 
