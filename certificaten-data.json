@@ -2278,5 +2278,15 @@
         "geldig_tot": "10-06-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "DEW-2026-00031-H5H2": {
+        "naam": "Habiba El Hamouchi",
+        "geboortedatum": "16-08-1988",
+        "cursus": "De-escalerend Werken",
+        "certificaatnummer": "DEW-2026-00031",
+        "behaald": "03-07-2026",
+        "geldig_tot": "03-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }

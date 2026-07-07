@@ -66,12 +66,13 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | VH | 12 Voorbehouden Handelingen | `VH-2026-00017` |
 | WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00028` |
 | TRC | Triple-C Methodiek | `TRC-2026-00030` |
+| DEW | De-escalerend Werken (Agressieregulatie) | `DEW-2026-00032` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND), Triple-C (TRC),
 > Diabeteszorg/insuline (INS), Agressiehantering (AGR), Slikscholing (SLIK), Wet
-> Zorg en Dwang (WZD) en Werken met Tilliften (TIL). De overige types staan wel in
-> de nummering, maar hebben (nog) geen template.
+> Zorg en Dwang (WZD), Werken met Tilliften (TIL) en De-escalerend Werken (DEW).
+> De overige types staan wel in de nummering, maar hebben (nog) geen template.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
 omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is leidend.
