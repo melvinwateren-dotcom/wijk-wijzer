@@ -2288,5 +2288,15 @@
         "geldig_tot": "03-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00393-A5S2": {
+        "naam": "Anne Sepina",
+        "geboortedatum": "17-01-1981",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00393",
+        "behaald": "08-07-2026",
+        "geldig_tot": "08-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
