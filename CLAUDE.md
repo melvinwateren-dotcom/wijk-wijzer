@@ -82,7 +82,7 @@ omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is l
 
 - **Bedrijf:** BHVKlaar.nl – Onderdeel van Novasphere
 - **Adres:** Ambachtweg 50, 3542 DH Utrecht
-- **Tel:** +31 6 85489411
+- **Tel:** +31 6 49820638
 - **Email:** info@bhvklaar.nl
 - **Plaats op certificaat:** Utrecht
 
@@ -135,7 +135,7 @@ Mocht je vragen hebben, neem gerust contact op.
 Met vriendelijke groet,
 Ilias El Allati
 BHVKlaar.nl
-+31 6 85489411
++31 6 49820638
 info@bhvklaar.nl
 ```
 
