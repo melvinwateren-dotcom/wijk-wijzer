@@ -2328,5 +2328,15 @@
         "geldig_tot": "30-06-2028",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "MA-2026-00027-R6E3": {
+        "naam": "Randa El Azzouzi",
+        "geboortedatum": "18-02-1997",
+        "cursus": "Medicatie Aanreiken",
+        "certificaatnummer": "MA-2026-00027",
+        "behaald": "10-07-2026",
+        "geldig_tot": "10-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
