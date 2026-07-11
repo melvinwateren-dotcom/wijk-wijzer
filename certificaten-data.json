@@ -2348,5 +2348,25 @@
         "geldig_tot": "08-07-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00396-L5B2": {
+        "naam": "Lina El Baz",
+        "geboortedatum": "05-10-2000",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00396",
+        "behaald": "10-07-2026",
+        "geldig_tot": "10-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00175-L6B3": {
+        "naam": "Lina El Baz",
+        "geboortedatum": "05-10-2000",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00175",
+        "behaald": "10-07-2026",
+        "geldig_tot": "10-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
