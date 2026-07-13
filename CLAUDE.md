@@ -67,7 +67,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | WOND | Wondzorg (rood/geel/zwart) | `WOND-2026-00028` |
 | TRC | Triple-C Methodiek | `TRC-2026-00030` |
 | DEW | De-escalerend Werken (Agressieregulatie) | `DEW-2026-00032` |
-| VTV | Verpleegtechnische Vaardigheden (niveau 3 & 4) | `VTV-2026-00023` |
+| VTV | Verpleegtechnische Vaardigheden (niveau 3 & 4) | `VTV-2026-00024` |
 | MA | Medicatie Aanreiken | `MA-2026-00028` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
