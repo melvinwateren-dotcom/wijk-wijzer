@@ -2418,5 +2418,25 @@
         "geldig_tot": "08-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "EPI-2026-00253-B5C2": {
+        "naam": "Btisam Chtatou",
+        "geboortedatum": "12-01-1995",
+        "cursus": "Epilepsiezorg",
+        "certificaatnummer": "EPI-2026-00253",
+        "behaald": "01-07-2026",
+        "geldig_tot": "01-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00168-B6C3": {
+        "naam": "Btisam Chtatou",
+        "geboortedatum": "12-01-1995",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00168",
+        "behaald": "23-06-2026",
+        "geldig_tot": "23-06-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
