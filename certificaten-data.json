@@ -2398,5 +2398,25 @@
         "geldig_tot": "14-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00399-F5K2": {
+        "naam": "Faissal Kadiri",
+        "geboortedatum": "05-09-1994",
+        "cursus": "BHV Basis",
+        "certificaatnummer": "BHV-2026-00399",
+        "behaald": "12-07-2026",
+        "geldig_tot": "12-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00167-F6K3": {
+        "naam": "Faissal Kadiri",
+        "geboortedatum": "05-09-1994",
+        "cursus": "Professionele Weerbaarheid",
+        "certificaatnummer": "WB-2026-00167",
+        "behaald": "12-07-2026",
+        "geldig_tot": "12-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
