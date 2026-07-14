@@ -2478,5 +2478,15 @@
         "geldig_tot": "14-07-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00169-S5K3": {
+        "naam": "Sahin Karasahin",
+        "geboortedatum": "14-03-1993",
+        "cursus": "Weerbaarheid",
+        "certificaatnummer": "WB-2026-00169",
+        "behaald": "14-07-2026",
+        "geldig_tot": "14-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
