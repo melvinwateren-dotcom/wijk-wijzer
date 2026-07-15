@@ -57,7 +57,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | MED | Medicatietoediening | `MED-2026-00179` |
 | EPI | Epilepsiezorg | `EPI-2026-00254` |
 | INS | Diabeteszorg (insuline) | `INS-2026-00046` |
-| TIL | Werken met Tilliften | `TIL-2026-00036` |
+| TIL | Werken met Tilliften | `TIL-2026-00037` |
 | WZD | Wet Zorg en Dwang (e-learning) | `WZD-2026-00031` |
 | AGR | Agressiehantering | `AGR-2026-00028` |
 | HP | Herhaling Voorbehouden Handelingen | `HP-2026-00022` |
