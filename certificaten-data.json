@@ -2518,5 +2518,15 @@
         "geldig_tot": "30-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "AGR-2026-00027-K4S8": {
+        "naam": "Kim van der Sanden",
+        "geboortedatum": "23-06-1996",
+        "cursus": "Agressiehantering",
+        "certificaatnummer": "AGR-2026-00027",
+        "behaald": "13-07-2026",
+        "geldig_tot": "13-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
