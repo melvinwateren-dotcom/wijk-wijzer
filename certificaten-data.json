@@ -2628,5 +2628,25 @@
         "geldig_tot": "06-07-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00406-D6M3": {
+        "naam": "Deborah Istrania Macnack",
+        "geboortedatum": "31-12-1977",
+        "cursus": "Bedrijfshulpverlening",
+        "certificaatnummer": "BHV-2026-00406",
+        "behaald": "20-07-2026",
+        "geldig_tot": "20-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00182-D4M8": {
+        "naam": "Deborah Istrania Macnack",
+        "geboortedatum": "31-12-1977",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00182",
+        "behaald": "21-07-2026",
+        "geldig_tot": "21-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
