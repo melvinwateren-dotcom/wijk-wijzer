@@ -2648,5 +2648,25 @@
         "geldig_tot": "21-07-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00407-B4M7": {
+        "naam": "Bilal el Moussaoui",
+        "geboortedatum": "27-04-1989",
+        "cursus": "Bedrijfshulpverlening",
+        "certificaatnummer": "BHV-2026-00407",
+        "behaald": "18-07-2026",
+        "geldig_tot": "18-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00183-B2M5": {
+        "naam": "Bilal el Moussaoui",
+        "geboortedatum": "27-04-1989",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00183",
+        "behaald": "18-07-2026",
+        "geldig_tot": "18-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
