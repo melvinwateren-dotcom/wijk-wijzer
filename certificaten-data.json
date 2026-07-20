@@ -2678,5 +2678,25 @@
         "geldig_tot": "14-05-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "MED-2026-00184-H4M2": {
+        "naam": "Houria El Idrissi Mrani",
+        "geboortedatum": "06-09-2001",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00184",
+        "behaald": "20-07-2026",
+        "geldig_tot": "20-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00172-H7M9": {
+        "naam": "Houria El Idrissi Mrani",
+        "geboortedatum": "06-09-2001",
+        "cursus": "Weerbaarheid",
+        "certificaatnummer": "WB-2026-00172",
+        "behaald": "20-07-2026",
+        "geldig_tot": "20-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
