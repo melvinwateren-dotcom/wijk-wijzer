@@ -2698,5 +2698,25 @@
         "geldig_tot": "20-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00173-A5A2": {
+        "naam": "Azzeddine Akoub",
+        "geboortedatum": "04-09-1998",
+        "cursus": "Weerbaarheid",
+        "certificaatnummer": "WB-2026-00173",
+        "behaald": "28-04-2026",
+        "geldig_tot": "28-04-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "TIL-2026-00037-A8A6": {
+        "naam": "Azzeddine Akoub",
+        "geboortedatum": "04-09-1998",
+        "cursus": "Werken met Tilliften",
+        "certificaatnummer": "TIL-2026-00037",
+        "behaald": "28-04-2026",
+        "geldig_tot": "28-04-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
