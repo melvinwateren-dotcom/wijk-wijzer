@@ -2728,5 +2728,35 @@
         "geldig_tot": "28-04-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "EPI-2026-00255-S3M8": {
+        "naam": "Saber El Mariaoui",
+        "geboortedatum": "21-05-2005",
+        "cursus": "Epilepsiezorg",
+        "certificaatnummer": "EPI-2026-00255",
+        "behaald": "20-07-2026",
+        "geldig_tot": "20-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00185-S6M1": {
+        "naam": "Saber El Mariaoui",
+        "geboortedatum": "21-05-2005",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00185",
+        "behaald": "20-07-2026",
+        "geldig_tot": "20-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "INS-2026-00047-S9M4": {
+        "naam": "Saber El Mariaoui",
+        "geboortedatum": "21-05-2005",
+        "cursus": "Diabeteszorg (insuline)",
+        "certificaatnummer": "INS-2026-00047",
+        "behaald": "21-07-2025",
+        "geldig_tot": "21-07-2026",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
