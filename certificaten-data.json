@@ -2818,5 +2818,25 @@
         "geldig_tot": "03-04-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "BHV-2026-00412-B5B8": {
+        "naam": "Bilal el Bouichi",
+        "geboortedatum": "07-06-1994",
+        "cursus": "Bedrijfshulpverlening",
+        "certificaatnummer": "BHV-2026-00412",
+        "behaald": "25-07-2026",
+        "geldig_tot": "25-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "WB-2026-00176-B3B9": {
+        "naam": "Bilal el Bouichi",
+        "geboortedatum": "07-06-1994",
+        "cursus": "Weerbaarheid",
+        "certificaatnummer": "WB-2026-00176",
+        "behaald": "25-07-2026",
+        "geldig_tot": "25-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
