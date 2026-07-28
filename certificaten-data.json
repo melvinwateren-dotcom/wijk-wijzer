@@ -2848,5 +2848,15 @@
         "geldig_tot": "26-07-2027",
         "instructeur": "Wendy Tiemens",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00177-F4L9": {
+        "naam": "Fatima Lakchouch",
+        "geboortedatum": "23-05-1988",
+        "cursus": "Weerbaarheid",
+        "certificaatnummer": "WB-2026-00177",
+        "behaald": "27-07-2026",
+        "geldig_tot": "27-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
