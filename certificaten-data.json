@@ -2908,5 +2908,15 @@
         "geldig_tot": "29-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "EPI-2026-00256-Y7H4": {
+        "naam": "Youssef Hatrouf",
+        "geboortedatum": "10-12-2000",
+        "cursus": "Epilepsiezorg",
+        "certificaatnummer": "EPI-2026-00256",
+        "behaald": "27-07-2026",
+        "geldig_tot": "27-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
