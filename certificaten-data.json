@@ -2928,5 +2928,65 @@
         "geldig_tot": "29-07-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00179-A5L2": {
+        "naam": "Amin Lazrek",
+        "geboortedatum": "11-01-1998",
+        "cursus": "Weerbaarheid",
+        "certificaatnummer": "WB-2026-00179",
+        "behaald": "06-07-2026",
+        "geldig_tot": "06-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "TIL-2026-00038-A8L6": {
+        "naam": "Amin Lazrek",
+        "geboortedatum": "11-01-1998",
+        "cursus": "Werken met Tilliften",
+        "certificaatnummer": "TIL-2026-00038",
+        "behaald": "13-07-2026",
+        "geldig_tot": "13-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "BHV-2026-00417-A3L9": {
+        "naam": "Amin Lazrek",
+        "geboortedatum": "11-01-1998",
+        "cursus": "Bedrijfshulpverlening",
+        "certificaatnummer": "BHV-2026-00417",
+        "behaald": "27-07-2026",
+        "geldig_tot": "27-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "INS-2026-00048-A7L1": {
+        "naam": "Amin Lazrek",
+        "geboortedatum": "11-01-1998",
+        "cursus": "Diabeteszorg (insuline)",
+        "certificaatnummer": "INS-2026-00048",
+        "behaald": "14-07-2026",
+        "geldig_tot": "14-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00188-A4L5": {
+        "naam": "Amin Lazrek",
+        "geboortedatum": "11-01-1998",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00188",
+        "behaald": "20-07-2026",
+        "geldig_tot": "20-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "EPI-2026-00257-A2L8": {
+        "naam": "Amin Lazrek",
+        "geboortedatum": "11-01-1998",
+        "cursus": "Epilepsiezorg",
+        "certificaatnummer": "EPI-2026-00257",
+        "behaald": "28-07-2026",
+        "geldig_tot": "28-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
