@@ -2998,5 +2998,15 @@
         "geldig_tot": "03-08-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "WB-2026-00181-N6T3": {
+        "naam": "Naoufal Tighadouini",
+        "geboortedatum": "17-09-2003",
+        "cursus": "Weerbaarheid",
+        "certificaatnummer": "WB-2026-00181",
+        "behaald": "05-08-2026",
+        "geldig_tot": "05-08-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
     }
 }
