@@ -3198,5 +3198,45 @@
         "geldig_tot": "07-08-2027",
         "instructeur": "Ilias El Allati",
         "plaats": "Utrecht"
+    },
+    "INS-2026-00049-A6L3": {
+        "naam": "Anas Lazaar",
+        "geboortedatum": "26-08-1979",
+        "cursus": "Diabeteszorg (insuline)",
+        "certificaatnummer": "INS-2026-00049",
+        "behaald": "07-07-2026",
+        "geldig_tot": "07-07-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "BHV-2026-00423-A5L8": {
+        "naam": "Anas Lazaar",
+        "geboortedatum": "26-08-1979",
+        "cursus": "Bedrijfshulpverlening",
+        "certificaatnummer": "BHV-2026-00423",
+        "behaald": "06-07-2026",
+        "geldig_tot": "06-07-2027",
+        "instructeur": "Ilias El Allati",
+        "plaats": "Utrecht"
+    },
+    "MED-2026-00193-A4L2": {
+        "naam": "Anas Lazaar",
+        "geboortedatum": "26-08-1979",
+        "cursus": "Medicatietoediening",
+        "certificaatnummer": "MED-2026-00193",
+        "behaald": "07-08-2026",
+        "geldig_tot": "07-08-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
+    },
+    "EPI-2026-00258-A7L9": {
+        "naam": "Anas Lazaar",
+        "geboortedatum": "26-08-1979",
+        "cursus": "Epilepsiezorg",
+        "certificaatnummer": "EPI-2026-00258",
+        "behaald": "07-08-2026",
+        "geldig_tot": "07-08-2027",
+        "instructeur": "Wendy Tiemens",
+        "plaats": "Utrecht"
     }
 }
