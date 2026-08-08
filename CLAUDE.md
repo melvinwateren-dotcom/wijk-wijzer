@@ -39,6 +39,10 @@ python3 render-pdf.py voornaam-achternaam-type.html
 `render-pdf.py` genereert de QR-code, tekent de schuine zijbalk als SVG en sluit
 de lokale fonts (Montserrat/Playfair Display) in — zo benadert het de Chrome-print.
 
+> **Altijd meesturen:** stuur bij het afleveren van certificaten (PDF's) altijd
+> ook `certificaten-data.json` mee, zodat de gebruiker de bijgewerkte
+> bron-van-waarheid direct heeft.
+
 ## Certificaatnummering
 
 Formaat: `TYPE-JAAR-VOLGNUMMER` (5 cijfers, met voorloopnullen)
