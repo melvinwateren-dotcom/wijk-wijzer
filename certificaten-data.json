@@ -3498,5 +3498,35 @@
     "geldig_tot": "20-08-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "AGR-2026-00031-A4O7": {
+    "naam": "Ayoub Oqbani",
+    "geboortedatum": "30-10-1995",
+    "cursus": "Agressiehantering",
+    "certificaatnummer": "AGR-2026-00031",
+    "behaald": "19-08-2026",
+    "geldig_tot": "19-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00199-A5O2": {
+    "naam": "Ayoub Oqbani",
+    "geboortedatum": "30-10-1995",
+    "cursus": "Medicatietoediening",
+    "certificaatnummer": "MED-2026-00199",
+    "behaald": "19-08-2026",
+    "geldig_tot": "19-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "BHV-2026-00436-A6O8": {
+    "naam": "Ayoub Oqbani",
+    "geboortedatum": "30-10-1995",
+    "cursus": "Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00436",
+    "behaald": "18-08-2026",
+    "geldig_tot": "18-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
