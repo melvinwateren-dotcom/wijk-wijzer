@@ -73,11 +73,13 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | DEW | De-escalerend Werken (Agressieregulatie) | `DEW-2026-00032` |
 | VTV | Verpleegtechnische Vaardigheden (niveau 3 & 4) | `VTV-2026-00024` |
 | MA | Medicatie Aanreiken | `MA-2026-00028` |
+| DEM | Omgaan met Dementie | `DEM-2026-00002` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND), Triple-C (TRC),
 > Diabeteszorg/insuline (INS), Agressiehantering (AGR), Slikscholing (SLIK), Wet
-> Zorg en Dwang (WZD), Werken met Tilliften (TIL) en De-escalerend Werken (DEW).
+> Zorg en Dwang (WZD), Werken met Tilliften (TIL), De-escalerend Werken (DEW) en
+Omgaan met Dementie (DEM).
 > De overige types staan wel in de nummering, maar hebben (nog) geen template.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
