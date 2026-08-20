@@ -3504,8 +3504,8 @@
     "geboortedatum": "30-10-1995",
     "cursus": "Agressiehantering",
     "certificaatnummer": "AGR-2026-00031",
-    "behaald": "19-08-2026",
-    "geldig_tot": "19-08-2027",
+    "behaald": "24-08-2026",
+    "geldig_tot": "24-08-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
   },
@@ -3576,16 +3576,6 @@
     "certificaatnummer": "BHV-2026-00438",
     "behaald": "24-07-2026",
     "geldig_tot": "24-07-2027",
-    "instructeur": "Ilias El Allati",
-    "plaats": "Utrecht"
-  },
-  "WB-2026-00193-A5O8": {
-    "naam": "Ayoub Oqbani",
-    "geboortedatum": "30-10-1995",
-    "cursus": "Professionele Weerbaarheid",
-    "certificaatnummer": "WB-2026-00193",
-    "behaald": "24-08-2026",
-    "geldig_tot": "24-08-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
   }
