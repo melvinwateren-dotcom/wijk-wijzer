@@ -3648,5 +3648,16 @@
     "geldig_tot": "21-08-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "WB-2026-00194-S5E8": {
+    "naam": "Salim El Bohdidi",
+    "geboortedatum": "14-12-2003",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00194",
+    "behaald": "30-06-2026",
+    "geldig_tot": "30-06-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht",
+    "opmerking": "inclusief e-learning"
   }
 }
