@@ -3699,5 +3699,15 @@
     "geldig_tot": "26-08-2028",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00442-A6L2": {
+    "naam": "Abderrahman Latif",
+    "geboortedatum": "25-05-2006",
+    "cursus": "Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00442",
+    "behaald": "24-08-2026",
+    "geldig_tot": "24-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
