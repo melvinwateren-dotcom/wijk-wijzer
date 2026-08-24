@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<title>BHV Certificaat – NAAM INVULLEN</title>
+<title>BHV Certificaat – Voorbeeld Deelnemer</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -121,7 +121,7 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
     <div class="header-row">
       <div class="badge"><div class="badge-dot"></div><div class="badge-text">Officieel Certificaat</div></div>
       <!-- INVULLEN: certificaatnummer bijv. BHV-2026-00284 -->
-      <div class="cert-nr">Certificaatnummer<strong>BHV-2026-VOORBEELD</strong></div>
+      <div class="cert-nr">Certificaatnummer<strong>BHV-2026-00000-VB00</strong></div>
     </div>
     <div class="cert-title">BHV <span class="accent">Certificaat</span></div>
     <div class="orn-row"><div class="orn-diamond"></div><div class="orn-line"></div><div class="orn-text">Bedrijfshulpverlening — BHVKlaar.nl</div><div class="orn-line" style="max-width:10mm;"></div></div>
@@ -175,11 +175,10 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
   </div>
 
   <div class="footer-bar">
-    <div class="footer-left"><strong>BHVKlaar.nl</strong> – Onderdeel van Novasphere &nbsp;·&nbsp; Ambachtweg 50, 3542 DH Utrecht &nbsp;·&nbsp; Tel: +31 6 85489411 &nbsp;·&nbsp; info@bhvklaar.nl</div>
+    <div class="footer-left"><strong>BHVKlaar.nl</strong> – Onderdeel van Novasphere &nbsp;·&nbsp; Ambachtweg 50, 3542 DH Utrecht &nbsp;·&nbsp; Tel: +31 6 49820638 &nbsp;·&nbsp; info@bhvklaar.nl</div>
     <div class="footer-dots"><div class="footer-dot"></div><div class="footer-dot"></div><div class="footer-dot"></div></div>
     <div class="footer-right">www.bhvklaar.nl</div>
   </div>
-<svg style="position:absolute;top:0;left:0;width:287mm;height:200mm;z-index:9999;pointer-events:none;" viewBox="0 0 1085 756" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="vbpat" width="240" height="150" patternUnits="userSpaceOnUse" patternTransform="rotate(-28)"><text x="6" y="80" font-family="Montserrat,sans-serif" font-size="30" font-weight="800" fill="#c81e1e" fill-opacity="0.16" letter-spacing="3">VOORBEELD</text></pattern></defs><rect width="1085" height="756" fill="url(#vbpat)"/></svg>
 </div>
 <button class="print-btn" onclick="setTimeout(()=>window.print(),300)">⬇ Opslaan als PDF</button>
 <script>new QRCode(document.getElementById("qrcode"),{text:"https://bhvklaar.nl/verificatie?code="+document.querySelector(".cert-nr strong").textContent.trim(),width:84,height:84,colorDark:"#0B1A3E",colorLight:"#FFFFFF",correctLevel:QRCode.CorrectLevel.M});</script>
