@@ -3709,5 +3709,25 @@
     "geldig_tot": "24-08-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00443-A5L8": {
+    "naam": "Anas Larhrissi",
+    "geboortedatum": "11-07-1990",
+    "cursus": "Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00443",
+    "behaald": "14-08-2026",
+    "geldig_tot": "14-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00196-A4L7": {
+    "naam": "Anas Larhrissi",
+    "geboortedatum": "11-07-1990",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00196",
+    "behaald": "17-08-2026",
+    "geldig_tot": "17-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
