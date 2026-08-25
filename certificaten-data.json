@@ -3749,5 +3749,16 @@
     "geldig_tot": "01-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00205-S6E4": {
+    "naam": "Sofiane El Guerouat",
+    "geboortedatum": "09-06-1999",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00205",
+    "behaald": "07-06-2026",
+    "geldig_tot": "07-06-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht",
+    "opmerking": "inclusief e-learning"
   }
 }
