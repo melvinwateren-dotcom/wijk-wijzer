@@ -3770,5 +3770,16 @@
     "geldig_tot": "12-06-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00207-A6H4": {
+    "naam": "Ali Hadi",
+    "geboortedatum": "07-12-1993",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00207",
+    "behaald": "27-08-2026",
+    "geldig_tot": "27-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht",
+    "opmerking": "behaald via e-learning"
   }
 }
