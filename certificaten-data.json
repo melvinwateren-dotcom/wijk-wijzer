@@ -4101,5 +4101,15 @@
     "geldig_tot": "10-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "INS-2026-00050-A5B8": {
+    "naam": "Abderrahmane Boulouize",
+    "geboortedatum": "19-03-1992",
+    "cursus": "Diabeteszorg (insuline)",
+    "certificaatnummer": "INS-2026-00050",
+    "behaald": "10-08-2026",
+    "geldig_tot": "10-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
