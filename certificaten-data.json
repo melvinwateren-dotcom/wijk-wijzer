@@ -4111,5 +4111,15 @@
     "geldig_tot": "10-08-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "WB-2026-00204-A6A4": {
+    "naam": "Anass Assouiki",
+    "geboortedatum": "27-02-2005",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00204",
+    "behaald": "01-09-2026",
+    "geldig_tot": "01-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
