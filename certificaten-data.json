@@ -4211,5 +4211,25 @@
     "geldig_tot": "02-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "WB-2026-00206-N5Z8": {
+    "naam": "Nejma Zaouaghi",
+    "geboortedatum": "14-12-2000",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00206",
+    "behaald": "31-07-2026",
+    "geldig_tot": "31-07-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "BHV-2026-00464-N4Z7": {
+    "naam": "Nejma Zaouaghi",
+    "geboortedatum": "14-12-2000",
+    "cursus": "Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00464",
+    "behaald": "03-06-2026",
+    "geldig_tot": "03-06-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
