@@ -4251,5 +4251,15 @@
     "geldig_tot": "02-09-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "WZD-2026-00031-M6A4": {
+    "naam": "Mohamed Akchar",
+    "geboortedatum": "13-04-1988",
+    "cursus": "Wet Zorg en Dwang (e-learning)",
+    "certificaatnummer": "WZD-2026-00031",
+    "behaald": "13-08-2026",
+    "geldig_tot": "13-08-2027",
+    "instructeur": "BHVKlaar.nl (e-learning)",
+    "plaats": "Utrecht"
   }
 }
