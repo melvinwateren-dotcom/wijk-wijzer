@@ -75,12 +75,13 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | MA | Medicatie Aanreiken | `MA-2026-00028` |
 | DEM | Omgaan met Dementie | `DEM-2026-00012` |
 | EHBO | Eerste Hulp Bij Ongelukken | `EHBO-2026-00017` (2 jaar) |
+| KAT | Katheterzorg | `KAT-2026-00002` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND), Triple-C (TRC),
 > Diabeteszorg/insuline (INS), Agressiehantering (AGR), Slikscholing (SLIK), Wet
 > Zorg en Dwang (WZD), Werken met Tilliften (TIL), De-escalerend Werken (DEW) en
-Omgaan met Dementie (DEM) en EHBO (Eerste Hulp Bij Ongelukken).
+Omgaan met Dementie (DEM), EHBO (Eerste Hulp Bij Ongelukken) en Katheterzorg (KAT).
 > De overige types staan wel in de nummering, maar hebben (nog) geen template.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
