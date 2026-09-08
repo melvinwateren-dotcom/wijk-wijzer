@@ -4381,5 +4381,25 @@
     "geldig_tot": "08-08-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "WB-2026-00210-M5K8": {
+    "naam": "Mounim Kourtit",
+    "geboortedatum": "13-10-2001",
+    "cursus": "Agressie & Weerbaarheid",
+    "certificaatnummer": "WB-2026-00210",
+    "behaald": "08-09-2026",
+    "geldig_tot": "08-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "DEW-2026-00032-M4K7": {
+    "naam": "Mounim Kourtit",
+    "geboortedatum": "13-10-2001",
+    "cursus": "De-escalerend Werken (Agressieregulatie)",
+    "certificaatnummer": "DEW-2026-00032",
+    "behaald": "08-09-2026",
+    "geldig_tot": "08-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
