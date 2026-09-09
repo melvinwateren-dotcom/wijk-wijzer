@@ -4411,5 +4411,45 @@
     "geldig_tot": "04-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00471-C3A7": {
+    "naam": "Chakir Agarbi",
+    "geboortedatum": "21-08-2001",
+    "cursus": "BHV Basis",
+    "certificaatnummer": "BHV-2026-00471",
+    "behaald": "01-09-2026",
+    "geldig_tot": "01-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00212-C6A2": {
+    "naam": "Chakir Agarbi",
+    "geboortedatum": "21-08-2001",
+    "cursus": "Agressie & Weerbaarheid",
+    "certificaatnummer": "WB-2026-00212",
+    "behaald": "01-09-2026",
+    "geldig_tot": "01-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00222-C4A9": {
+    "naam": "Chakir Agarbi",
+    "geboortedatum": "21-08-2001",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00222",
+    "behaald": "08-09-2026",
+    "geldig_tot": "08-09-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "EPI-2026-00260-C8A5": {
+    "naam": "Chakir Agarbi",
+    "geboortedatum": "21-08-2001",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00260",
+    "behaald": "08-09-2026",
+    "geldig_tot": "08-09-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
