@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Agressiehantering Certificaat – NAAM INVULLEN</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --navy:  #0B1A3E; --blue:  #1455B0; --bright:#1E6FE8;
+  --gold:  #C9A84C; --gold2: #E8C97A; --light: #EEF4FF;
+  --offwh: #FAFBFF; --gray:  #6B7A99; --lgray: #D4DCF0; --white: #FFFFFF;
+}
+@page { size: A4 landscape; margin: 0; }
+body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:center; justify-content:center; font-family:'Montserrat',sans-serif; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+.cert { width:287mm; height:200mm; background:var(--offwh); position:relative; overflow:hidden; box-shadow:0 6px 40px rgba(0,0,0,0.3); }
+.cert::before { content:''; position:absolute; inset:4.5mm; border:1.5px solid var(--gold); z-index:20; pointer-events:none; }
+.cert::after  { content:''; position:absolute; inset:6mm;   border:0.5px solid rgba(201,168,76,0.3); z-index:20; pointer-events:none; }
+.bg-sidebar { position:absolute; top:0; left:0; width:65mm; height:200mm; background:linear-gradient(170deg,#0B1A3E 55%,#122150 100%); clip-path:polygon(0 0,100% 0,84% 100%,0 100%); }
+.bg-sidebar-dots { position:absolute; top:0; left:0; width:65mm; height:200mm; clip-path:polygon(0 0,100% 0,84% 100%,0 100%); background-image:radial-gradient(circle,rgba(255,255,255,0.06) 1px,transparent 1px); background-size:7mm 7mm; }
+.bg-footer { position:absolute; bottom:0; left:0; width:287mm; height:11mm; background:linear-gradient(90deg,var(--navy) 0%,var(--blue) 100%); }
+.bg-watermark { position:absolute; right:14mm; top:50%; transform:translateY(-50%); font-family:'Montserrat',sans-serif; font-size:72pt; font-weight:900; color:rgba(30,111,232,0.038); letter-spacing:-5px; pointer-events:none; user-select:none; z-index:0; }
+.corner { position:absolute; width:16mm; height:16mm; z-index:21; }
+.c-tl { top:4.5mm; left:4.5mm; } .c-tr { top:4.5mm; right:4.5mm; transform:scaleX(-1); }
+.c-bl { bottom:4.5mm; left:4.5mm; transform:scaleY(-1); } .c-br { bottom:4.5mm; right:4.5mm; transform:scale(-1,-1); }
+.left-panel { position:absolute; top:0; left:0; width:57mm; height:200mm; z-index:5; display:flex; flex-direction:column; align-items:center; justify-content:space-between; padding:13mm 5mm 12mm 6mm; }
+.logo-icon { width:26mm; height:26mm; }
+.logo-name { font-family:'Montserrat',sans-serif; font-size:11pt; font-weight:800; color:#fff; text-align:center; margin-top:3mm; }
+.logo-name span { color:var(--gold2); }
+.logo-tagline { font-size:5pt; color:rgba(255,255,255,0.45); letter-spacing:1.5px; text-transform:uppercase; text-align:center; line-height:1.7; margin-top:1.5mm; }
+.panel-divider { width:28mm; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); }
+.ecg-svg { width:42mm; opacity:0.22; }
+.vertical-text { writing-mode:vertical-rl; transform:rotate(180deg); font-size:5pt; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,0.25); }
+.panel-url { font-size:6pt; color:rgba(255,255,255,0.38); letter-spacing:1px; }
+.main { position:absolute; top:0; left:57mm; right:0; bottom:49mm; z-index:5; padding:11mm 12mm 6mm 11mm; display:flex; flex-direction:column; overflow:hidden; }
+.header-row { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:3.5mm; }
+.badge { display:flex; align-items:center; gap:2mm; }
+.badge-dot { width:2mm; height:2mm; background:var(--gold); border-radius:50%; flex-shrink:0; }
+.badge-text { font-size:6pt; font-weight:700; letter-spacing:3px; color:var(--gold); text-transform:uppercase; }
+.cert-nr { font-size:6pt; color:var(--gray); text-align:right; letter-spacing:0.5px; }
+.cert-nr strong { display:block; font-size:7pt; font-weight:700; color:var(--navy); letter-spacing:1px; margin-top:0.5mm; }
+.cert-title { font-family:'Playfair Display',serif; font-size:24pt; font-weight:700; color:var(--navy); line-height:1; margin-bottom:2mm; }
+.cert-title .accent { color:var(--bright); }
+.orn-row { display:flex; align-items:center; gap:2mm; margin-bottom:3mm; }
+.orn-diamond { width:5px; height:5px; background:var(--gold); transform:rotate(45deg); flex-shrink:0; }
+.orn-line { height:1.5px; background:linear-gradient(90deg,var(--bright),var(--light)); flex:1; }
+.orn-text { font-size:6.5pt; font-weight:600; color:var(--gray); letter-spacing:1.8px; text-transform:uppercase; white-space:nowrap; }
+.declaration { font-size:7.5pt; color:var(--gray); font-weight:400; margin-bottom:3.5mm; line-height:1.5; }
+.name-block { background:linear-gradient(135deg,#EEF4FF,#F5F8FF); border-left:3px solid var(--bright); border-top:1px solid rgba(30,111,232,0.12); border-bottom:1px solid rgba(30,111,232,0.12); padding:3mm 5mm; margin-bottom:3.5mm; }
+.name-label { font-size:5.2pt; font-weight:700; color:var(--bright); letter-spacing:2px; text-transform:uppercase; margin-bottom:1mm; }
+.name-value { font-family:'Playfair Display',serif; font-size:19pt; font-weight:700; color:var(--navy); line-height:1.1; }
+.name-dob { font-size:6pt; color:var(--gray); margin-top:0.8mm; }
+.name-dob strong { color:var(--navy); font-weight:600; }
+.detail-grid { display:grid; grid-template-columns:repeat(4,1fr); border:1px solid var(--lgray); border-radius:1mm; overflow:hidden; margin-bottom:3mm; }
+.detail-cell { padding:2.2mm 3mm; border-right:1px solid var(--lgray); background:var(--white); }
+.detail-cell:last-child { border-right:none; } .detail-cell:nth-child(even) { background:var(--offwh); }
+.d-label { font-size:5pt; font-weight:700; color:var(--gray); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:1mm; }
+.d-value { font-size:7pt; font-weight:700; color:var(--navy); line-height:1.3; }
+.d-value.blue { color:var(--bright); } .d-value.gold { color:var(--gold); }
+.course-section { border-top:1px dashed var(--lgray); padding-top:2.5mm; }
+.course-heading { font-size:5pt; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--gray); margin-bottom:2mm; }
+.course-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1mm 2mm; }
+.module { display:flex; align-items:flex-start; gap:1.5mm; font-size:5.8pt; color:var(--navy); font-weight:500; line-height:1.4; }
+.module-tick { color:var(--bright); font-size:7pt; font-weight:700; flex-shrink:0; line-height:1.2; }
+.sig-bar { position:absolute; left:57mm; right:0; bottom:11mm; height:38mm; z-index:5; display:flex; align-items:flex-start; justify-content:space-between; padding:4mm 12mm 0 11mm; border-top:1px solid var(--lgray); }
+.instructor-block { display:flex; flex-direction:column; align-items:center; min-width:48mm; }
+.instr-line { width:48mm; height:1px; background:linear-gradient(90deg,transparent,var(--navy) 40%,transparent); margin-bottom:2.5mm; }
+.instr-name { font-family:'Playfair Display',serif; font-size:10pt; font-weight:700; color:var(--navy); text-align:center; }
+.instr-title { font-size:5.8pt; color:var(--gray); text-align:center; margin-top:1mm; }
+.instr-company { font-size:6pt; font-weight:700; color:var(--bright); text-align:center; margin-top:0.5mm; letter-spacing:0.5px; }
+.qr-block { display:flex; flex-direction:column; align-items:center; gap:1.5mm; }
+.qr-box { width:22mm; height:22mm; border:1.5px solid var(--lgray); border-radius:1.5mm; overflow:hidden; background:white; display:flex; align-items:center; justify-content:center; }
+.qr-box canvas,.qr-box img { width:100% !important; height:100% !important; }
+.qr-label { font-size:5pt; color:var(--gray); letter-spacing:0.5px; text-align:center; }
+.qr-url { font-size:5pt; color:var(--bright); font-weight:700; text-align:center; }
+.seal-block { display:flex; flex-direction:column; align-items:center; }
+.issued-block { text-align:right; min-width:42mm; }
+.issued-label { font-size:5pt; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--gray); margin-bottom:1mm; }
+.issued-value { font-size:7.5pt; font-weight:700; color:var(--navy); margin-bottom:2mm; }
+.practijk-note { font-size:6.5pt; color:var(--navy); font-weight:500; line-height:1.6; }
+.footer-bar { position:absolute; bottom:0; left:0; width:287mm; height:11mm; z-index:6; display:flex; align-items:center; justify-content:space-between; padding:0 9mm 4.5mm; }
+.footer-left,.footer-right { font-size:5.5pt; color:rgba(255,255,255,0.55); letter-spacing:0.8px; }
+.footer-left strong,.footer-right strong { color:rgba(255,255,255,0.85); }
+.footer-dots { display:flex; gap:2mm; }
+.footer-dot { width:1.5mm; height:1.5mm; background:var(--gold); border-radius:50%; opacity:0.6; }
+.print-btn { position:fixed; bottom:20px; right:20px; background:var(--navy); color:white; border:none; padding:12px 26px; font-family:'Montserrat',sans-serif; font-size:12px; font-weight:700; border-radius:6px; cursor:pointer; box-shadow:0 4px 18px rgba(11,26,62,0.45); z-index:9999; }
+@media print { body { background:white; display:block; } .cert { width:297mm; height:210mm; box-shadow:none; } .bg-sidebar,.bg-sidebar-dots { height:210mm; } .left-panel { height:210mm; } .print-btn { display:none !important; } }
+</style>
+</head>
+<body>
+<div class="cert">
+  <div class="bg-sidebar"></div><div class="bg-sidebar-dots"></div><div class="bg-footer"></div>
+  <div class="bg-watermark">AGR</div>
+  <div class="corner c-tl"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
+  <div class="corner c-tr"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
+  <div class="corner c-bl"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
+  <div class="corner c-br"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
+
+  <div class="left-panel">
+    <div style="display:flex;flex-direction:column;align-items:center;">
+      <svg class="logo-icon" viewBox="0 0 120 120" fill="none">
+        <circle cx="60" cy="60" r="52" stroke="rgba(201,168,76,0.18)" stroke-width="1"/>
+        <path d="M24 78 C18 68 16 56 20 48 C24 40 31 36 38 39 C42 41 44 45 47 50" stroke="#4A90D9" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+        <path d="M96 78 C102 68 104 56 100 48 C96 40 89 36 82 39 C78 41 76 45 73 50" stroke="#4A90D9" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+        <path d="M60 94 C60 94 23 71 23 47 C23 35 33 27 45 31 C51 33 57 39 60 46 C63 39 69 33 75 31 C87 27 97 35 97 47 C97 71 60 94 60 94Z" fill="rgba(30,111,232,0.10)" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
+        <polyline points="31,58 41,58 47,40 53,76 58,52 62,52 67,44 73,58 83,58 89,58" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="60" cy="25" r="2" fill="#C9A84C" opacity="0.8"/>
+      </svg>
+      <div class="logo-name">BHV<span>Klaar</span>.nl</div>
+      <div class="logo-tagline">Dé Specialist in<br>Bedrijfshulpverlening</div>
+    </div>
+    <div class="panel-divider"></div>
+    <svg class="ecg-svg" viewBox="0 0 140 28" fill="none"><polyline points="0,14 22,14 30,3 38,25 46,14 60,14 68,7 76,21 84,14 98,14 106,4 112,24 118,14 140,14" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div class="panel-divider"></div>
+    <div class="vertical-text">Agressiehantering · Nederland</div>
+    <div class="panel-url">www.bhvklaar.nl</div>
+  </div>
+
+  <div class="main">
+    <div class="header-row">
+      <div class="badge"><div class="badge-dot"></div><div class="badge-text">Officieel Certificaat</div></div>
+      <!-- INVULLEN: certificaatnummer bijv. AGR-2026-00025 -->
+      <div class="cert-nr">Certificaatnummer<strong>AGR-2026-XXXXX</strong></div>
+    </div>
+    <div class="cert-title">Agressiehantering <span class="accent">Certificaat</span></div>
+    <div class="orn-row"><div class="orn-diamond"></div><div class="orn-line"></div><div class="orn-text">Agressiehantering — BHVKlaar.nl</div><div class="orn-line" style="max-width:10mm;"></div></div>
+    <div class="declaration">Hierbij wordt verklaard dat onderstaande deelnemer met goed gevolg de opleiding heeft afgerond en voldoet aan de gestelde eisen voor Agressiehantering:</div>
+    <div class="name-block">
+      <div class="name-label">Naam deelnemer</div>
+      <!-- INVULLEN: volledige naam -->
+      <div class="name-value">VOORNAAM ACHTERNAAM</div>
+      <!-- INVULLEN: geboortedatum dd-mm-jjjj -->
+      <div class="name-dob">Geboortedatum:&ensp;<strong>DD-MM-JJJJ</strong></div>
+    </div>
+    <div class="detail-grid">
+      <div class="detail-cell"><div class="d-label">Cursus</div><div class="d-value blue">Agressiehantering</div></div>
+      <!-- INVULLEN: datum behaald -->
+      <div class="detail-cell"><div class="d-label">Datum voltooiing</div><div class="d-value">DD-MM-JJJJ</div></div>
+      <!-- INVULLEN: datum + 1 jaar -->
+      <div class="detail-cell"><div class="d-label">Geldig t/m</div><div class="d-value gold">DD-MM-JJJJ</div></div>
+      <div class="detail-cell"><div class="d-label">Geldigheidsduur</div><div class="d-value">1 jaar</div></div>
+    </div>
+    <div class="course-section">
+      <div class="course-heading">Cursusinhoud — behandelde onderwerpen</div>
+      <div class="course-grid">
+        <div class="module"><span class="module-tick">✓</span>Herkennen van agressie &amp; signalen</div>
+        <div class="module"><span class="module-tick">✓</span>Vormen van agressie (verbaal/fysiek)</div>
+        <div class="module"><span class="module-tick">✓</span>De-escalatietechnieken</div>
+        <div class="module"><span class="module-tick">✓</span>Grenzen stellen &amp; communicatie</div>
+        <div class="module"><span class="module-tick">✓</span>Omgaan met bedreiging &amp; geweld</div>
+        <div class="module"><span class="module-tick">✓</span>Veilig handelen &amp; zelfbescherming</div>
+        <div class="module"><span class="module-tick">✓</span>Nazorg &amp; incidentregistratie</div>
+        <div class="module"><span class="module-tick">✓</span>Praktijkoefeningen &amp; toetsing</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sig-bar">
+    <!-- INSTRUCTEUR: voor agressiehantering is dit Ilias El Allati -->
+    <div class="instructor-block"><div class="instr-line"></div><div class="instr-name">Ilias El Allati</div><div class="instr-title">Instructeur</div><div class="instr-company">BHVKlaar.nl</div></div>
+    <div class="qr-block"><div class="qr-box" id="qrcode"></div><div class="qr-label">Scan voor verificatie</div><div class="qr-url">bhvklaar.nl</div></div>
+    <div class="seal-block">
+      <svg width="24mm" height="24mm" viewBox="0 0 90 90" fill="none">
+        <circle cx="45" cy="45" r="40" stroke="#C9A84C" stroke-width="1.5"/><circle cx="45" cy="45" r="35" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+        <path d="M45 7 L47.8 18 L58 12 L54 23 L65 21 L58 30 L69 33 L60 38 L66 48 L56 47 L57 58 L48 52 L46 63 L42 52 L33 58 L34 47 L24 48 L30 38 L21 33 L32 30 L25 21 L36 23 L32 12 L43 18 Z" fill="none" stroke="#C9A84C" stroke-width="0.7" opacity="0.25"/>
+        <path d="M45 54 C45 54 33 46 33 39.5 C33 36 36 33 39.5 34 C41.8 34.7 43.5 36.5 45 38.5 C46.5 36.5 48.2 34.7 50.5 34 C54 33 57 36 57 39.5 C57 46 45 54 45 54Z" fill="none" stroke="#1455B0" stroke-width="1.3"/>
+        <polyline points="37,40 40,40 42,35 44,45 46,40 48,40 50,37 52,43 55,43" fill="none" stroke="#1455B0" stroke-width="1.1" stroke-linecap="round"/>
+        <text x="45" y="68" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="4.5" font-weight="700" fill="#0B1A3E" letter-spacing="1">GECERTIFICEERD</text>
+        <text x="45" y="74.5" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.8" fill="#C9A84C" letter-spacing="0.5">BHVKLAAR.NL</text>
+        <text x="45" y="26" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.5" fill="#6B7A99" letter-spacing="1">AGRESSIE</text>
+      </svg>
+    </div>
+    <!-- INVULLEN: plaats en datum -->
+    <div class="issued-block"><div class="issued-label">Plaats &amp; datum afgifte</div><div class="issued-value">Utrecht, DD-MM-JJJJ</div><div class="practijk-note">Dit certificaat is praktijkgericht<br>en klassikaal behaald via BHVKlaar.nl</div></div>
+  </div>
+
+  <div class="footer-bar">
+    <div class="footer-left"><strong>BHVKlaar.nl</strong> – Onderdeel van Novasphere &nbsp;·&nbsp; Ambachtweg 50, 3542 DH Utrecht &nbsp;·&nbsp; Tel: +31 6 49820638 &nbsp;·&nbsp; info@bhvklaar.nl</div>
+    <div class="footer-dots"><div class="footer-dot"></div><div class="footer-dot"></div><div class="footer-dot"></div></div>
+    <div class="footer-right">www.bhvklaar.nl</div>
+  </div>
+</div>
+<button class="print-btn" onclick="setTimeout(()=>window.print(),300)">⬇ Opslaan als PDF</button>
+<script>new QRCode(document.getElementById("qrcode"),{text:"https://bhvklaar.nl/verificatie?code="+document.querySelector(".cert-nr strong").textContent.trim(),width:84,height:84,colorDark:"#0B1A3E",colorLight:"#FFFFFF",correctLevel:QRCode.CorrectLevel.M});</script>
+</body>
+</html>
