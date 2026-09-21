@@ -4721,5 +4721,15 @@
     "geldig_tot": "16-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "INS-2026-00053-A6P3": {
+    "naam": "Anselma Noria Pasinsie",
+    "geboortedatum": "10-04-1976",
+    "cursus": "Diabeteszorg",
+    "certificaatnummer": "INS-2026-00053",
+    "behaald": "28-07-2026",
+    "geldig_tot": "28-07-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
