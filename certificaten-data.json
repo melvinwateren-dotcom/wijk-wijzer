@@ -4911,5 +4911,25 @@
     "geldig_tot": "25-07-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00231-B4C7": {
+    "naam": "Badreddine Chakir",
+    "geboortedatum": "11-11-1991",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00231",
+    "behaald": "24-09-2026",
+    "geldig_tot": "24-09-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "AGR-2026-00033-B8C3": {
+    "naam": "Badreddine Chakir",
+    "geboortedatum": "11-11-1991",
+    "cursus": "Agressiehantering",
+    "certificaatnummer": "AGR-2026-00033",
+    "behaald": "25-09-2026",
+    "geldig_tot": "25-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
