@@ -4831,5 +4831,15 @@
     "geldig_tot": "22-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00230-A5B8": {
+    "naam": "Assia Ben Chaib",
+    "geboortedatum": "14-02-1992",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00230",
+    "behaald": "23-09-2026",
+    "geldig_tot": "23-09-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
