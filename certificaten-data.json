@@ -4862,16 +4862,6 @@
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
   },
-  "BHV-2026-00489-S6B4": {
-    "naam": "Soufyan Boubkari",
-    "geboortedatum": "29-04-1993",
-    "cursus": "BHV Basis",
-    "certificaatnummer": "BHV-2026-00489",
-    "behaald": "25-07-2026",
-    "geldig_tot": "25-07-2027",
-    "instructeur": "Ilias El Allati",
-    "plaats": "Utrecht"
-  },
   "BHV-2026-00490-H5E8": {
     "naam": "Hajar El Ghazaoui",
     "geboortedatum": "14-07-2002",
@@ -4910,6 +4900,16 @@
     "behaald": "23-09-2026",
     "geldig_tot": "23-09-2027",
     "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "ADL-2026-00034-S5B2": {
+    "naam": "Soufyan Boubkari",
+    "geboortedatum": "29-04-1993",
+    "cursus": "ADL-ondersteuning",
+    "certificaatnummer": "ADL-2026-00034",
+    "behaald": "25-07-2026",
+    "geldig_tot": "25-07-2027",
+    "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
   }
 }
