@@ -4891,5 +4891,25 @@
     "geldig_tot": "30-07-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00492-A5A8": {
+    "naam": "Ayoub Akchaoi",
+    "geboortedatum": "09-03-2001",
+    "cursus": "BHV Basis",
+    "certificaatnummer": "BHV-2026-00492",
+    "behaald": "23-09-2026",
+    "geldig_tot": "23-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00222-A3A6": {
+    "naam": "Ayoub Akchaoi",
+    "geboortedatum": "09-03-2001",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00222",
+    "behaald": "23-09-2026",
+    "geldig_tot": "23-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
