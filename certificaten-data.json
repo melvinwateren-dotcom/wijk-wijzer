@@ -4791,5 +4791,15 @@
     "geldig_tot": "28-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00486-H4H7": {
+    "naam": "Hicham Hamdaoui",
+    "geboortedatum": "16-04-1992",
+    "cursus": "BHV Basis",
+    "certificaatnummer": "BHV-2026-00486",
+    "behaald": "16-09-2026",
+    "geldig_tot": "16-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
