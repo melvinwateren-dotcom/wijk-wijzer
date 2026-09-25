@@ -63,6 +63,11 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
 .course-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1mm 2mm; }
 .module { display:flex; align-items:flex-start; gap:1.5mm; font-size:5.8pt; color:var(--navy); font-weight:500; line-height:1.4; }
 .module-tick { color:var(--bright); font-size:7pt; font-weight:700; flex-shrink:0; line-height:1.2; }
+.hp-cats { column-count:2; column-gap:9mm; margin-top:0.5mm; }
+.hp-cat { break-inside:avoid; -webkit-column-break-inside:avoid; margin-bottom:2.4mm; }
+.hp-cat-title { font-size:6pt; font-weight:800; color:var(--navy); letter-spacing:0.3px; margin-bottom:1.2mm; padding-bottom:0.8mm; border-bottom:1px solid var(--lgray); }
+.hp-item { display:flex; align-items:flex-start; gap:1.5mm; font-size:5.6pt; color:var(--navy); font-weight:500; line-height:1.35; margin-bottom:0.7mm; }
+.hp-item .tick { color:var(--bright); font-size:6pt; font-weight:700; flex-shrink:0; line-height:1.15; }
 .sig-bar { position:absolute; left:57mm; right:0; bottom:11mm; height:38mm; z-index:5; display:flex; align-items:flex-start; justify-content:space-between; padding:4mm 12mm 0 11mm; border-top:1px solid var(--lgray); }
 .instructor-block { display:flex; flex-direction:column; align-items:center; min-width:48mm; }
 .instr-line { width:48mm; height:1px; background:linear-gradient(90deg,transparent,var(--navy) 40%,transparent); margin-bottom:2.5mm; }
@@ -142,12 +147,37 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
     </div>
     <div class="course-section">
       <div class="course-heading">Behandelde handelingen — Keuzedeel Helpende Plus</div>
-            <div class="course-grid">
-        <div class="module"><span class="module-tick">✓</span>Vitale functies (pols, ademhaling, temperatuur)</div>
-        <div class="module"><span class="module-tick">✓</span>Medicatie (uitzetten, druppels, zalven, microlax)</div>
-        <div class="module"><span class="module-tick">✓</span>Wondzorg (rode wond)</div>
-        <div class="module"><span class="module-tick">✓</span>Continentiezorg (katheterzak &amp; condoomkatheter)</div>
-        <div class="module"><span class="module-tick">✓</span>Compressietherapie (steunkousen)</div>
+            <div class="hp-cats">
+      <div class="hp-cat">
+        <div class="hp-cat-title">Vitale functies</div>
+        <div class="hp-item"><span class="tick">✓</span>Pols tellen</div>
+        <div class="hp-item"><span class="tick">✓</span>Beoordelen en tellen ademhaling</div>
+        <div class="hp-item"><span class="tick">✓</span>Meten van de lichaamstemperatuur (oksel, oor, mond, rectum)</div>
+      </div>
+      <div class="hp-cat">
+        <div class="hp-cat-title">Medicatie</div>
+        <div class="hp-item"><span class="tick">✓</span>Uitzetten, controleren en registreren</div>
+        <div class="hp-item"><span class="tick">✓</span>Toedienen oogdruppels</div>
+        <div class="hp-item"><span class="tick">✓</span>Toedienen oordruppels</div>
+        <div class="hp-item"><span class="tick">✓</span>Zalven van de huid</div>
+        <div class="hp-item"><span class="tick">✓</span>Toedienen neusdruppels / neusspray</div>
+        <div class="hp-item"><span class="tick">✓</span>Toedienen microlax</div>
+      </div>
+      <div class="hp-cat">
+        <div class="hp-cat-title">Wondzorg</div>
+        <div class="hp-item"><span class="tick">✓</span>Verzorgen van een rode wond</div>
+      </div>
+      <div class="hp-cat">
+        <div class="hp-cat-title">Continentiezorg</div>
+        <div class="hp-item"><span class="tick">✓</span>Verwisselen katheterzak</div>
+        <div class="hp-item"><span class="tick">✓</span>Aanbrengen / verwijderen condoomkatheter</div>
+        <div class="hp-item"><span class="tick">✓</span>Legen van een katheterzak</div>
+      </div>
+      <div class="hp-cat">
+        <div class="hp-cat-title">Compressietherapie</div>
+        <div class="hp-item"><span class="tick">✓</span>Aantrekken van steunkousen</div>
+        <div class="hp-item"><span class="tick">✓</span>Uittrekken van steunkousen</div>
+      </div>
       </div>
     </div>
   </div>
