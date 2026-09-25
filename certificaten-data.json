@@ -4948,8 +4948,18 @@
     "cursus": "Verpleegtechnische Vaardigheden",
     "certificaatnummer": "VTV-2026-00030",
     "behaald": "22-09-2026",
-    "geldig_tot": "22-09-2027",
+    "geldig_tot": "22-09-2028",
     "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00223-S6E3": {
+    "naam": "Saida Elbissis",
+    "geboortedatum": "11-05-1971",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00223",
+    "behaald": "25-09-2026",
+    "geldig_tot": "25-09-2027",
+    "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
   }
 }
