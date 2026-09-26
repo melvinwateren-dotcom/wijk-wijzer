@@ -5011,5 +5011,15 @@
     "geldig_tot": "30-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00495-K7V3": {
+    "naam": "Kaddy Verhoeff",
+    "geboortedatum": "25-06-1984",
+    "cursus": "BHV Basis",
+    "certificaatnummer": "BHV-2026-00495",
+    "behaald": "19-05-2026",
+    "geldig_tot": "19-05-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
