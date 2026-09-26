@@ -4981,5 +4981,35 @@
     "geldig_tot": "23-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "WB-2026-00223-R5B8": {
+    "naam": "Rachid Boughaba",
+    "geboortedatum": "18-01-1993",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00223",
+    "behaald": "30-09-2026",
+    "geldig_tot": "30-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00224-R3I7": {
+    "naam": "Redouan Imaankaf",
+    "geboortedatum": "19-05-1993",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00224",
+    "behaald": "30-09-2026",
+    "geldig_tot": "30-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00225-F6B4": {
+    "naam": "Fadoua Boughaba",
+    "geboortedatum": "24-09-1995",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00225",
+    "behaald": "30-09-2026",
+    "geldig_tot": "30-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
