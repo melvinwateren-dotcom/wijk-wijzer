@@ -5031,5 +5031,15 @@
     "geldig_tot": "30-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "EPI-2026-00261-N5E8": {
+    "naam": "Nadir El Moussaoui",
+    "geboortedatum": "20-04-1998",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00261",
+    "behaald": "16-09-2026",
+    "geldig_tot": "16-09-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
