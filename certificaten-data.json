@@ -5141,5 +5141,15 @@
     "geldig_tot": "30-09-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "DEW-2026-00033-M5B8": {
+    "naam": "M. Baidaoui",
+    "geboortedatum": "22-10-1971",
+    "cursus": "De-escalerend Werken",
+    "certificaatnummer": "DEW-2026-00033",
+    "behaald": "01-10-2026",
+    "geldig_tot": "01-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
