@@ -5151,5 +5151,15 @@
     "geldig_tot": "01-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00234-M6T3": {
+    "naam": "Maria Tringkovski",
+    "geboortedatum": "28-12-1995",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00234",
+    "behaald": "17-08-2026",
+    "geldig_tot": "17-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
