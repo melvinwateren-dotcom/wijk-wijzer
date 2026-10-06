@@ -5242,11 +5242,21 @@
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
   },
-  "PRV-2026-00001-J5M8": {
+  "PRV-2026-00026-J5M8": {
     "naam": "Jekdar Mahmada",
     "geboortedatum": "01-09-1994",
     "cursus": "Privacy in de Zorg",
-    "certificaatnummer": "PRV-2026-00001",
+    "certificaatnummer": "PRV-2026-00026",
+    "behaald": "06-10-2026",
+    "geldig_tot": "06-10-2027",
+    "instructeur": "BHVKlaar.nl (e-learning)",
+    "plaats": "Utrecht"
+  },
+  "MHG-2026-00031-J3M7": {
+    "naam": "Jekdar Mahmada",
+    "geboortedatum": "01-09-1994",
+    "cursus": "Meldcode Huiselijk Geweld",
+    "certificaatnummer": "MHG-2026-00031",
     "behaald": "06-10-2026",
     "geldig_tot": "06-10-2027",
     "instructeur": "BHVKlaar.nl (e-learning)",
