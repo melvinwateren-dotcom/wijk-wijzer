@@ -5271,5 +5271,15 @@
     "geldig_tot": "06-10-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00238-R5E8": {
+    "naam": "Rachid El Hassnaoui",
+    "geboortedatum": "16-06-1997",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00238",
+    "behaald": "28-09-2026",
+    "geldig_tot": "28-09-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
