@@ -5351,5 +5351,15 @@
     "geldig_tot": "08-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "SLIK-2026-00021-A5O2": {
+    "naam": "Ayoub Oqbani",
+    "geboortedatum": "30-10-1995",
+    "cursus": "Slikscholing",
+    "certificaatnummer": "SLIK-2026-00021",
+    "behaald": "09-10-2026",
+    "geldig_tot": "09-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
