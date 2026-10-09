@@ -5421,5 +5421,45 @@
     "geldig_tot": "13-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00509-M2A3": {
+    "naam": "Mohammed Azahaf",
+    "geboortedatum": "04-07-2003",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00509",
+    "behaald": "12-08-2026",
+    "geldig_tot": "12-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00233-M2A3": {
+    "naam": "Mohammed Azahaf",
+    "geboortedatum": "04-07-2003",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00233",
+    "behaald": "12-08-2026",
+    "geldig_tot": "12-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "EPI-2026-00262-M2A3": {
+    "naam": "Mohammed Azahaf",
+    "geboortedatum": "04-07-2003",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00262",
+    "behaald": "13-08-2026",
+    "geldig_tot": "13-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "INS-2026-00056-M2A3": {
+    "naam": "Mohammed Azahaf",
+    "geboortedatum": "04-07-2003",
+    "cursus": "Diabeteszorg & Insuline",
+    "certificaatnummer": "INS-2026-00056",
+    "behaald": "13-08-2026",
+    "geldig_tot": "13-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
