@@ -5481,5 +5481,25 @@
     "geldig_tot": "12-10-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "PRV-2026-00027-A6H0": {
+    "naam": "Adil Hmidouch",
+    "geboortedatum": "25-08-1999",
+    "cursus": "Privacy in de Zorg (E-learning)",
+    "certificaatnummer": "PRV-2026-00027",
+    "behaald": "10-10-2026",
+    "geldig_tot": "10-10-2027",
+    "instructeur": "BHVKlaar.nl",
+    "plaats": "Utrecht"
+  },
+  "MHG-2026-00032-A6H0": {
+    "naam": "Adil Hmidouch",
+    "geboortedatum": "25-08-1999",
+    "cursus": "Meldcode Huiselijk Geweld (E-learning)",
+    "certificaatnummer": "MHG-2026-00032",
+    "behaald": "10-10-2026",
+    "geldig_tot": "10-10-2027",
+    "instructeur": "BHVKlaar.nl",
+    "plaats": "Utrecht"
   }
 }
