@@ -5671,5 +5671,15 @@
     "geldig_tot": "15-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "VTV-2026-00034-R8M7": {
+    "naam": "Romano Mijnsen",
+    "geboortedatum": "26-08-1977",
+    "cursus": "Verpleegtechnische Vaardigheden",
+    "certificaatnummer": "VTV-2026-00034",
+    "behaald": "12-10-2026",
+    "geldig_tot": "12-10-2028",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
