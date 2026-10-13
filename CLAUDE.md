@@ -83,6 +83,12 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 > Zorg en Dwang (WZD), Werken met Tilliften (TIL), De-escalerend Werken (DEW) en
 Omgaan met Dementie (DEM), EHBO (Eerste Hulp Bij Ongelukken) en Katheterzorg (KAT).
 > De overige types staan wel in de nummering, maar hebben (nog) geen template.
+>
+> **VTV (Verpleegtechnische Vaardigheden):** gebruik altijd
+> `template-verpleegtechnische-vaardigheden.html` én de bijbehorende
+> `template-verpleegtechnische-vaardigheden-competentielijst.html` (A4 staand, 12
+> competentiegebieden / 36 onderdelen). Titel en inhoud zijn bewust algemeen gehouden
+> (geen niveau- of functievermelding). Lever certificaat + competentielijst altijd samen.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
 omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is leidend.
