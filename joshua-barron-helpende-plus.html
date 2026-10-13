@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
-<title>Medicatie &amp; Medicatieveiligheid Certificaat – Joshua Barron</title>
+<title>Helpende Plus Bijscholing – Joshua Barron</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -63,6 +63,11 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
 .course-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1mm 2mm; }
 .module { display:flex; align-items:flex-start; gap:1.5mm; font-size:5.8pt; color:var(--navy); font-weight:500; line-height:1.4; }
 .module-tick { color:var(--bright); font-size:7pt; font-weight:700; flex-shrink:0; line-height:1.2; }
+.hp-cats { column-count:2; column-gap:9mm; margin-top:0.5mm; }
+.hp-cat { break-inside:avoid; -webkit-column-break-inside:avoid; margin-bottom:2.4mm; }
+.hp-cat-title { font-size:6pt; font-weight:800; color:var(--navy); letter-spacing:0.3px; margin-bottom:1.2mm; padding-bottom:0.8mm; border-bottom:1px solid var(--lgray); }
+.hp-item { display:flex; align-items:flex-start; gap:1.5mm; font-size:5.6pt; color:var(--navy); font-weight:500; line-height:1.35; margin-bottom:0.7mm; }
+.hp-item .tick { color:var(--bright); font-size:6pt; font-weight:700; flex-shrink:0; line-height:1.15; }
 .sig-bar { position:absolute; left:57mm; right:0; bottom:11mm; height:38mm; z-index:5; display:flex; align-items:flex-start; justify-content:space-between; padding:4mm 12mm 0 11mm; border-top:1px solid var(--lgray); }
 .instructor-block { display:flex; flex-direction:column; align-items:center; min-width:48mm; }
 .instr-line { width:48mm; height:1px; background:linear-gradient(90deg,transparent,var(--navy) 40%,transparent); margin-bottom:2.5mm; }
@@ -91,7 +96,7 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
 <body>
 <div class="cert">
   <div class="bg-sidebar"></div><div class="bg-sidebar-dots"></div><div class="bg-footer"></div>
-  <div class="bg-watermark">MED</div>
+  <div class="bg-watermark">HP</div>
   <div class="corner c-tl"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
   <div class="corner c-tr"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
   <div class="corner c-bl"><svg viewBox="0 0 55 55" fill="none"><path d="M4 52 L4 8 Q4 4 8 4 L52 4" stroke="#C9A84C" stroke-width="1.5"/><path d="M9 52 L9 13 Q9 9 13 9 L52 9" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/><rect x="4" y="4" width="4" height="4" fill="#C9A84C" opacity="0.5"/><rect x="4.5" y="4.5" width="2" height="2" fill="#C9A84C"/></svg></div>
@@ -100,32 +105,31 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
   <div class="left-panel">
     <div style="display:flex;flex-direction:column;align-items:center;">
       <svg class="logo-icon" viewBox="0 0 120 120" fill="none">
-        <circle cx="60" cy="60" r="52" stroke="rgba(201,168,76,0.18)" stroke-width="1"/>
-        <path d="M24 78 C18 68 16 56 20 48 C24 40 31 36 38 39 C42 41 44 45 47 50" stroke="#4A90D9" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-        <path d="M96 78 C102 68 104 56 100 48 C96 40 89 36 82 39 C78 41 76 45 73 50" stroke="#4A90D9" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-        <path d="M60 94 C60 94 23 71 23 47 C23 35 33 27 45 31 C51 33 57 39 60 46 C63 39 69 33 75 31 C87 27 97 35 97 47 C97 71 60 94 60 94Z" fill="rgba(30,111,232,0.10)" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
-        <polyline points="31,58 41,58 47,40 53,76 58,52 62,52 67,44 73,58 83,58 89,58" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="60" cy="25" r="2" fill="#C9A84C" opacity="0.8"/>
-      </svg>
+  <path d="M60 104 C60 104 20 78 15 50 C12 33 24 22 38 27 C33 20 22 22 18 34" fill="none" stroke="#4A90E2" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M60 104 C60 104 100 78 105 50 C108 33 96 22 82 27 C87 20 98 22 102 34" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M60 98 C60 98 26 74 26 50 C26 39 35 32 44 35 C50 37 56 43 60 50 C64 43 70 37 76 35 C85 32 94 39 94 50 C94 74 60 98 60 98 Z" fill="none" stroke="#7fb4ff" stroke-width="4"/>
+  <polyline points="32,60 44,60 50,44 57,74 62,54 67,54 72,46 78,60 88,60" fill="none" stroke="#ffffff" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#4A90E2"><rect x="57" y="20" width="6" height="16" rx="1.5"/><rect x="52" y="25" width="16" height="6" rx="1.5"/></g>
+</svg>
       <div class="logo-name">BHV<span>Klaar</span>.nl</div>
       <div class="logo-tagline">Dé Specialist in<br>Bedrijfshulpverlening</div>
     </div>
     <div class="panel-divider"></div>
     <svg class="ecg-svg" viewBox="0 0 140 28" fill="none"><polyline points="0,14 22,14 30,3 38,25 46,14 60,14 68,7 76,21 84,14 98,14 106,4 112,24 118,14 140,14" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
     <div class="panel-divider"></div>
-    <div class="vertical-text">Medicatie &amp; Medicatieveiligheid · Nederland</div>
+    <div class="vertical-text">Helpende Plus · Nederland</div>
     <div class="panel-url">www.bhvklaar.nl</div>
   </div>
 
   <div class="main">
     <div class="header-row">
       <div class="badge"><div class="badge-dot"></div><div class="badge-text">Officieel Certificaat</div></div>
-      <!-- INVULLEN: certificaatnummer bijv. MED-2026-00004 -->
-      <div class="cert-nr">Certificaatnummer<strong>MED-2026-00244-J1B3</strong></div>
+      <!-- INVULLEN: certificaatnummer bijv. VH-2026-00013 -->
+      <div class="cert-nr">Certificaatnummer<strong>HPL-2026-00028-J3B4</strong></div>
     </div>
-    <div class="cert-title" style="font-size:19pt;">Medicatie &amp; Medicatieveiligheid <span class="accent">Certificaat</span></div>
-    <div class="orn-row"><div class="orn-diamond"></div><div class="orn-line"></div><div class="orn-text">Medicatie &amp; Medicatieveiligheid — BHVKlaar.nl</div><div class="orn-line" style="max-width:10mm;"></div></div>
-    <div class="declaration">Hierbij wordt verklaard dat onderstaande deelnemer met goed gevolg de opleiding heeft afgerond en voldoet aan de gestelde eisen voor Medicatie &amp; Medicatieveiligheid:</div>
+    <div class="cert-title" style="font-size:19pt;">Helpende Plus <span class="accent">Bijscholing</span></div>
+    <div class="orn-row"><div class="orn-diamond"></div><div class="orn-line"></div><div class="orn-text">Helpende Plus Bijscholing — BHVKlaar.nl</div><div class="orn-line" style="max-width:10mm;"></div></div>
+    <div class="declaration">Hierbij wordt verklaard dat onderstaande deelnemer met goed gevolg de bijscholing Helpende Plus heeft afgerond en voldoet aan de gestelde eisen:</div>
     <div class="name-block">
       <div class="name-label">Naam deelnemer</div>
       <!-- INVULLEN: volledige naam -->
@@ -134,30 +138,34 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
       <div class="name-dob">Geboortedatum:&ensp;<strong>06-09-1994</strong></div>
     </div>
     <div class="detail-grid">
-      <div class="detail-cell"><div class="d-label">Cursus</div><div class="d-value blue">Medicatie &amp; Medicatieveiligheid</div></div>
+      <div class="detail-cell"><div class="d-label">Cursus</div><div class="d-value blue">Helpende Plus Bijscholing</div></div>
       <!-- INVULLEN: datum behaald -->
       <div class="detail-cell"><div class="d-label">Datum voltooiing</div><div class="d-value">12-10-2026</div></div>
-      <!-- INVULLEN: datum + 1 jaar -->
-      <div class="detail-cell"><div class="d-label">Geldig t/m</div><div class="d-value gold">12-10-2027</div></div>
-      <div class="detail-cell"><div class="d-label">Geldigheidsduur</div><div class="d-value">1 jaar</div></div>
+      <!-- INVULLEN: datum + 2 jaar -->
+      <div class="detail-cell"><div class="d-label">Geldig t/m</div><div class="d-value gold">12-10-2028</div></div>
+      <div class="detail-cell"><div class="d-label">Geldigheidsduur</div><div class="d-value">2 jaar</div></div>
     </div>
     <div class="course-section">
-      <div class="course-heading">Cursusinhoud — behandelde onderwerpen</div>
-      <div class="course-grid">
-        <div class="module"><span class="module-tick">✓</span>Bevoegd &amp; bekwaam in de zorgpraktijk</div>
-        <div class="module"><span class="module-tick">✓</span>Wet- en regelgeving veilig voorbereiden &amp; uitreiken</div>
-        <div class="module"><span class="module-tick">✓</span>Veilige Principes medicatieproces (V&amp;V, intramuraal)</div>
-        <div class="module"><span class="module-tick">✓</span>Stappenplan: van voorbereiding tot registratie</div>
-        <div class="module"><span class="module-tick">✓</span>Baxtersysteem / medicatierol</div>
-        <div class="module"><span class="module-tick">✓</span>Toedieningsvormen: mond, oog, oor, neus, huid, rectaal</div>
-        <div class="module"><span class="module-tick">✓</span>Beheren, bewaren &amp; controleren (medicatieveiligheid)</div>
-        <div class="module"><span class="module-tick">✓</span>Veilig voorbereiden &amp; uitdelen van medicatie</div>
-        <div class="module"><span class="module-tick">✓</span>Dubbele controle: wanneer wél/niet &amp; hoe</div>
-        <div class="module"><span class="module-tick">✓</span>Observeren van de cliënt na inname</div>
-        <div class="module"><span class="module-tick">✓</span>Vitale functies meten &amp; rapporteren/handelen</div>
-        <div class="module"><span class="module-tick">✓</span>Aftekenen / registreren &amp; incidenten (MIC)</div>
+      <div class="course-heading">Behandelde onderdelen — Helpende Plus Bijscholing</div>
+            <div class="hp-cats">
+      <div class="hp-cat">
+        <div class="hp-item"><span class="tick">✓</span>Wet en regelgeving risicovolle en voorbehouden handelingen</div>
+        <div class="hp-item"><span class="tick">✓</span>Diabeteszorg; Glucose meten en insuline spuiten</div>
+        <div class="hp-item"><span class="tick">✓</span>Meten van vitale functies</div>
+        <div class="hp-item"><span class="tick">✓</span>Steunkousen aan en uit trekken (Doff N’ Donner)</div>
+        <div class="hp-item"><span class="tick">✓</span>Medicatieveiligheid</div>
+        <div class="hp-item"><span class="tick">✓</span>Stomazorg</div>
+      </div>
+      <div class="hp-cat">
+        <div class="hp-item"><span class="tick">✓</span>Uitscheidingspatroon</div>
+        <div class="hp-item"><span class="tick">✓</span>Katheterzorg</div>
+        <div class="hp-item"><span class="tick">✓</span>Blaasspoelen</div>
+        <div class="hp-item"><span class="tick">✓</span>Acute zorg situaties: Brandwonden, smetten, schaafwonden en slikken/verstikken</div>
+        <div class="hp-item"><span class="tick">✓</span>Mondzorg</div>
+      </div>
       </div>
     </div>
+  </div>
   </div>
 
   <div class="sig-bar">
@@ -172,11 +180,11 @@ body { width:297mm; height:210mm; background:#b0bbd0; display:flex; align-items:
         <polyline points="37,40 40,40 42,35 44,45 46,40 48,40 50,37 52,43 55,43" fill="none" stroke="#1455B0" stroke-width="1.1" stroke-linecap="round"/>
         <text x="45" y="68" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="4.5" font-weight="700" fill="#0B1A3E" letter-spacing="1">GECERTIFICEERD</text>
         <text x="45" y="74.5" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.8" fill="#C9A84C" letter-spacing="0.5">BHVKLAAR.NL</text>
-        <text x="45" y="26" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.5" fill="#6B7A99" letter-spacing="1">MEDICATIE</text>
+        <text x="45" y="26" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="3.5" fill="#6B7A99" letter-spacing="0.5">BIJSCHOLING HP</text>
       </svg>
     </div>
     <!-- INVULLEN: plaats en datum -->
-    <div class="issued-block"><div class="issued-label">Plaats &amp; datum afgifte</div><div class="issued-value">Utrecht, 12-10-2026</div><div class="practijk-note">Dit certificaat is praktijkgericht<br>en klassikaal behaald via BHVKlaar.nl</div></div>
+    <div class="issued-block"><div class="issued-label">Plaats &amp; datum afgifte</div><div class="issued-value">Utrecht, 12-10-2026</div><div class="practijk-note">Deze bijscholing is praktijkgericht<br>en klassikaal behaald via BHVKlaar.nl</div></div>
   </div>
 
   <div class="footer-bar">
