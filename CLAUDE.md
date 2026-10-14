@@ -83,7 +83,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 > Diabeteszorg/insuline (INS), Agressiehantering (AGR), Slikscholing (SLIK), Wet
 > Zorg en Dwang (WZD), Werken met Tilliften (TIL), De-escalerend Werken (DEW) en
 Omgaan met Dementie (DEM), EHBO (Eerste Hulp Bij Ongelukken), Katheterzorg (KAT)
-en Zuurstoftoediening (ZUUR, `template-zuurstoftoediening.html`, Wendy Tiemens, 1 jaar).
+en Zuurstoftoediening (ZUUR, `template-zuurstoftoediening.html`, e-learning → instructeur BHVKlaar.nl, 1 jaar).
 > De overige types staan wel in de nummering, maar hebben (nog) geen template.
 >
 > **VTV (Verpleegtechnische Vaardigheden):** gebruik altijd
