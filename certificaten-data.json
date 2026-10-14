@@ -5681,5 +5681,15 @@
     "geldig_tot": "12-10-2028",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00516-M7B6": {
+    "naam": "Marouane Boukiaten",
+    "geboortedatum": "12-12-1988",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00516",
+    "behaald": "14-10-2026",
+    "geldig_tot": "14-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
