@@ -76,7 +76,7 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | DEM | Omgaan met Dementie | `DEM-2026-00012` |
 | EHBO | Eerste Hulp Bij Ongelukken | `EHBO-2026-00017` (2 jaar) |
 | KAT | Katheterzorg | `KAT-2026-00002` |
-| ZUUR | Zuurstoftoediening (O₂-therapie) | `ZUUR-2026-00002` |
+| ZUUR | Zuurstoftoediening (O₂-therapie) | `ZUUR-2026-00018` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND), Triple-C (TRC),
