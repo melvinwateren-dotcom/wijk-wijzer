@@ -5650,7 +5650,9 @@
     "behaald": "14-10-2026",
     "geldig_tot": "14-10-2027",
     "instructeur": "Ilias El Allati",
-    "plaats": "Utrecht"
+    "plaats": "Utrecht",
+    "status": "inactief",
+    "opmerking": "Op non-actief gezet op 14-10-2026"
   },
   "WB-2026-00236-V0V0": {
     "naam": "Virgil Voll",
@@ -5660,7 +5662,9 @@
     "behaald": "14-10-2026",
     "geldig_tot": "14-10-2027",
     "instructeur": "Ilias El Allati",
-    "plaats": "Utrecht"
+    "plaats": "Utrecht",
+    "status": "inactief",
+    "opmerking": "Op non-actief gezet op 14-10-2026"
   },
   "BHV-2026-00515-I3A7": {
     "naam": "Imane Aabakrimi",
