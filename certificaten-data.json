@@ -5756,5 +5756,25 @@
     "geldig_tot": "14-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00520-Z4E2": {
+    "naam": "Zakariya Ezriouel",
+    "geboortedatum": "10-09-1997",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00520",
+    "behaald": "21-03-2026",
+    "geldig_tot": "21-03-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00245-Z4E2": {
+    "naam": "Zakariya Ezriouel",
+    "geboortedatum": "10-09-1997",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00245",
+    "behaald": "21-03-2026",
+    "geldig_tot": "21-03-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
