@@ -5825,5 +5825,45 @@
     "geldig_tot": "14-10-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00522-H6K9": {
+    "naam": "Hicham El Kandoussi",
+    "geboortedatum": "09-08-2001",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00522",
+    "behaald": "10-08-2026",
+    "geldig_tot": "10-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00238-H6K9": {
+    "naam": "Hicham El Kandoussi",
+    "geboortedatum": "09-08-2001",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00238",
+    "behaald": "10-08-2026",
+    "geldig_tot": "10-08-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "ADL-2026-00040-H6K9": {
+    "naam": "Hicham El Kandoussi",
+    "geboortedatum": "09-08-2001",
+    "cursus": "ADL-ondersteuning",
+    "certificaatnummer": "ADL-2026-00040",
+    "behaald": "11-08-2026",
+    "geldig_tot": "11-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00248-H6K9": {
+    "naam": "Hicham El Kandoussi",
+    "geboortedatum": "09-08-2001",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00248",
+    "behaald": "11-08-2026",
+    "geldig_tot": "11-08-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
