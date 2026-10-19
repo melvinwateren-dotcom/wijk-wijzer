@@ -5865,5 +5865,25 @@
     "geldig_tot": "11-08-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00249-H6G8": {
+    "naam": "Hanane Guetbach",
+    "geboortedatum": "09-10-1998",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00249",
+    "behaald": "19-10-2026",
+    "geldig_tot": "19-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "BHV-2026-00523-H6G8": {
+    "naam": "Hanane Guetbach",
+    "geboortedatum": "09-10-1998",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00523",
+    "behaald": "20-10-2026",
+    "geldig_tot": "20-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
