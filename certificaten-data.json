@@ -5946,5 +5946,35 @@
     "geldig_tot": "29-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00525-J9M1": {
+    "naam": "Jaouad El Makaoui",
+    "geboortedatum": "24-02-1998",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00525",
+    "behaald": "19-10-2026",
+    "geldig_tot": "19-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00251-J9M1": {
+    "naam": "Jaouad El Makaoui",
+    "geboortedatum": "24-02-1998",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00251",
+    "behaald": "19-10-2026",
+    "geldig_tot": "19-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00240-J9M1": {
+    "naam": "Jaouad El Makaoui",
+    "geboortedatum": "24-02-1998",
+    "cursus": "Agressie & Weerbaarheid",
+    "certificaatnummer": "WB-2026-00240",
+    "behaald": "19-10-2026",
+    "geldig_tot": "19-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
