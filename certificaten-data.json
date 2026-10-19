@@ -5976,5 +5976,25 @@
     "geldig_tot": "19-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00526-A2Z4": {
+    "naam": "Ayoub Zardah",
+    "geboortedatum": "15-03-1998",
+    "cursus": "BHV Herhaling",
+    "certificaatnummer": "BHV-2026-00526",
+    "behaald": "06-10-2026",
+    "geldig_tot": "06-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00241-A2Z4": {
+    "naam": "Ayoub Zardah",
+    "geboortedatum": "15-03-1998",
+    "cursus": "Agressie & Weerbaarheid",
+    "certificaatnummer": "WB-2026-00241",
+    "behaald": "14-10-2026",
+    "geldig_tot": "14-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
