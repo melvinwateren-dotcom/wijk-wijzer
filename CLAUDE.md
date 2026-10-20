@@ -77,13 +77,15 @@ Eerstvolgende beschikbare nummers (peildatum 08-06-2026, uit `certificaten-data.
 | EHBO | Eerste Hulp Bij Ongelukken | `EHBO-2026-00017` (2 jaar) |
 | KAT | Katheterzorg | `KAT-2026-00002` |
 | ZUUR | Zuurstoftoediening (O₂-therapie) | `ZUUR-2026-00018` |
+| LVB | Omgaan met LVB (e-learning) | `LVB-2026-00002` |
 
 > HTML-templates bestaan voor BHV, WB, MED, Voorbehouden Handelingen (VH),
 > Epilepsiezorg (EPI), Wondzorg (WOND), Sondevoeding (SOND), Triple-C (TRC),
 > Diabeteszorg/insuline (INS), Agressiehantering (AGR), Slikscholing (SLIK), Wet
 > Zorg en Dwang (WZD), Werken met Tilliften (TIL), De-escalerend Werken (DEW) en
 Omgaan met Dementie (DEM), EHBO (Eerste Hulp Bij Ongelukken), Katheterzorg (KAT)
-en Zuurstoftoediening (ZUUR, `template-zuurstoftoediening.html`, Wendy Tiemens, 1 jaar).
+Zuurstoftoediening (ZUUR, `template-zuurstoftoediening.html`, Wendy Tiemens, 1 jaar)
+en Omgaan met LVB (LVB, `template-lvb.html`, e-learning → instructeur "E-learning BHVKlaar.nl", 1 jaar).
 > De overige types staan wel in de nummering, maar hebben (nog) geen template.
 >
 > **VTV (Verpleegtechnische Vaardigheden):** gebruik altijd

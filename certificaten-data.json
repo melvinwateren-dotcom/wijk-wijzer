@@ -6006,5 +6006,16 @@
     "geldig_tot": "14-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "LVB-2026-00001-S2Y6": {
+    "naam": "Sudenaz Yigit",
+    "geboortedatum": "08-08-2006",
+    "cursus": "E-learning Omgaan met LVB",
+    "certificaatnummer": "LVB-2026-00001",
+    "behaald": "02-04-2026",
+    "geldig_tot": "02-04-2027",
+    "instructeur": "E-learning BHVKlaar.nl",
+    "plaats": "Utrecht",
+    "opmerking": "behaald via e-learning"
   }
 }
