@@ -6047,5 +6047,35 @@
     "geldig_tot": "20-10-2028",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00529-R4R3": {
+    "naam": "Rayllyson Rosa",
+    "geboortedatum": "27-05-1997",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00529",
+    "behaald": "21-10-2026",
+    "geldig_tot": "21-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00242-R4R3": {
+    "naam": "Rayllyson Rosa",
+    "geboortedatum": "27-05-1997",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00242",
+    "behaald": "22-10-2026",
+    "geldig_tot": "22-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "INS-2026-00058-R4R3": {
+    "naam": "Rayllyson Rosa",
+    "geboortedatum": "27-05-1997",
+    "cursus": "Diabeteszorg",
+    "certificaatnummer": "INS-2026-00058",
+    "behaald": "26-10-2026",
+    "geldig_tot": "26-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
