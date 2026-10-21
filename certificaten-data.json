@@ -6127,5 +6127,15 @@
     "geldig_tot": "06-03-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00533-G5P8": {
+    "naam": "Giovanni Peters",
+    "geboortedatum": "24-02-1983",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00533",
+    "behaald": "21-10-2026",
+    "geldig_tot": "21-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
