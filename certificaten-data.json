@@ -6177,5 +6177,15 @@
     "geldig_tot": "22-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00252-R0M5": {
+    "naam": "Rami Maagoul",
+    "geboortedatum": "13-07-1998",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00252",
+    "behaald": "06-07-2026",
+    "geldig_tot": "06-07-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
