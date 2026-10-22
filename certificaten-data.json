@@ -6157,5 +6157,25 @@
     "geldig_tot": "22-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00534-A5A3": {
+    "naam": "Achraf Aarrass",
+    "geboortedatum": "01-04-2004",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00534",
+    "behaald": "21-10-2026",
+    "geldig_tot": "21-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00244-S4A1": {
+    "naam": "Sofyan Aarrass",
+    "geboortedatum": "16-10-1995",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00244",
+    "behaald": "22-10-2026",
+    "geldig_tot": "22-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
