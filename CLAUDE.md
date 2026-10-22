@@ -91,7 +91,7 @@ en Omgaan met LVB (LVB, `template-lvb.html`, e-learning → instructeur "E-learn
 > **VTV (Verpleegtechnische Vaardigheden):** gebruik altijd
 > `template-verpleegtechnische-vaardigheden.html` én de bijbehorende
 > `template-verpleegtechnische-vaardigheden-competentielijst.html` (A4 staand, 12
-> competentiegebieden / 43 onderdelen). Titel en inhoud zijn bewust algemeen gehouden
+> competentiegebieden / 44 onderdelen). Titel en inhoud zijn bewust algemeen gehouden
 > (geen niveau- of functievermelding). Lever certificaat + competentielijst altijd samen.
 
 **Belangrijk:** Houd de nummering bij! Na elk certificaat gaat het volgnummer +1
