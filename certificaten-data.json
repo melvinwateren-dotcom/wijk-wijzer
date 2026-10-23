@@ -6227,5 +6227,25 @@
     "geldig_tot": "26-10-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "HPL-2026-00030-H7H0": {
+    "naam": "Hajar Hajji",
+    "geboortedatum": "18-07-2001",
+    "cursus": "Helpende Plus",
+    "certificaatnummer": "HPL-2026-00030",
+    "behaald": "22-10-2026",
+    "geldig_tot": "22-10-2028",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00246-H7H0": {
+    "naam": "Hajar Hajji",
+    "geboortedatum": "18-07-2001",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00246",
+    "behaald": "02-10-2026",
+    "geldig_tot": "02-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
