@@ -6287,5 +6287,35 @@
     "geldig_tot": "27-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00539-A2E8": {
+    "naam": "Aymane Essabar",
+    "geboortedatum": "26-06-2002",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00539",
+    "behaald": "19-10-2026",
+    "geldig_tot": "19-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00255-A2E8": {
+    "naam": "Aymane Essabar",
+    "geboortedatum": "26-06-2002",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00255",
+    "behaald": "20-10-2026",
+    "geldig_tot": "20-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00247-A2E8": {
+    "naam": "Aymane Essabar",
+    "geboortedatum": "26-06-2002",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00247",
+    "behaald": "24-10-2026",
+    "geldig_tot": "24-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
