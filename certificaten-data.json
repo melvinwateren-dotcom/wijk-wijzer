@@ -6367,5 +6367,25 @@
     "geldig_tot": "27-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00541-Z9A6": {
+    "naam": "Zakaria Aissaoui",
+    "geboortedatum": "30-09-1996",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00541",
+    "behaald": "28-09-2026",
+    "geldig_tot": "28-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00249-Z9A6": {
+    "naam": "Zakaria Aissaoui",
+    "geboortedatum": "30-09-1996",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00249",
+    "behaald": "23-09-2026",
+    "geldig_tot": "23-09-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
