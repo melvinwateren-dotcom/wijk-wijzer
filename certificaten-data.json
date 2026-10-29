@@ -6587,5 +6587,15 @@
     "geldig_tot": "30-10-2028",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "EHBO-2026-00017-D1S4": {
+    "naam": "Djibi Seme",
+    "geboortedatum": "16-04-2004",
+    "cursus": "Eerste Hulp Bij Ongelukken (EHBO)",
+    "certificaatnummer": "EHBO-2026-00017",
+    "behaald": "02-11-2026",
+    "geldig_tot": "02-11-2028",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
