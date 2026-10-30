@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size:A4; margin:0; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:'Helvetica Neue',Arial,sans-serif; color:#1a2438; font-size:10pt; line-height:1.5; }
+.header { background:#0B1A3E; color:#fff; padding:15mm 18mm 11mm; position:relative; }
+.header .accent { position:absolute; left:0; right:0; bottom:0; height:2.4mm; background:linear-gradient(90deg,#C9A84C 0%,#C9A84C 30%,#1455B0 70%,#1455B0 100%); }
+.header .row { display:flex; justify-content:space-between; align-items:flex-start; }
+.brand { font-size:20pt; font-weight:800; letter-spacing:0.3px; }
+.brand b { color:#5b9bff; }
+.brand .tag { display:block; font-size:7.5pt; font-weight:600; letter-spacing:2.5px; text-transform:uppercase; color:#9fb0cc; margin-top:2mm; }
+.htitle { text-align:right; }
+.htitle h1 { margin:0; font-size:17pt; font-weight:800; letter-spacing:2px; text-transform:uppercase; color:#fff; }
+.htitle .sub { font-size:8pt; letter-spacing:1.5px; text-transform:uppercase; color:#C9A84C; font-weight:700; margin-top:1.5mm; }
+.wrap { padding:11mm 18mm 0; }
+.metarow { display:flex; justify-content:space-between; border-bottom:1px solid #e6e9ef; padding-bottom:5mm; margin-bottom:7mm; font-size:9pt; color:#5b6675; }
+.metarow b { color:#0B1A3E; }
+.cards { display:flex; gap:6mm; margin-bottom:8mm; }
+.card { flex:1; background:#f6f8fb; border:1px solid #e6e9ef; border-left:3px solid #0B1A3E; border-radius:1.5mm; padding:5mm 6mm; }
+.card.pay { border-left-color:#C9A84C; }
+.card .lbl { font-size:7pt; font-weight:700; letter-spacing:1.8px; text-transform:uppercase; color:#8a94a6; margin-bottom:2mm; }
+.card .nm { font-weight:700; font-size:11.5pt; color:#0B1A3E; margin-bottom:1mm; }
+.card .val { font-size:9pt; line-height:1.65; color:#40495c; }
+table { width:100%; border-collapse:collapse; margin-bottom:6mm; }
+thead th { background:#0B1A3E; color:#fff; font-size:7.5pt; font-weight:700; letter-spacing:1.2px; text-transform:uppercase; text-align:left; padding:2.5mm 4mm; }
+thead th.r { text-align:right; }
+tbody td { padding:4mm; border-bottom:1px solid #e6e9ef; vertical-align:top; }
+tbody td.r { text-align:right; white-space:nowrap; font-weight:600; }
+tbody .desc b { font-size:10.5pt; color:#0B1A3E; }
+.sub { font-size:8.5pt; color:#7a8397; margin-top:1mm; }
+.foot { display:flex; justify-content:space-between; align-items:flex-start; gap:10mm; }
+.paid { margin-top:2mm; }
+.paid .badge { display:inline-block; background:#eaf6ee; border:1.5px solid #1e8f4e; color:#177a41; font-weight:800; letter-spacing:1.5px; text-transform:uppercase; font-size:10pt; padding:3mm 8mm; border-radius:1.5mm; }
+.paid .pdate { font-size:8.5pt; color:#7a8397; margin-top:2.5mm; }
+.totals { width:66mm; }
+.totals .row { display:flex; justify-content:space-between; padding:1.6mm 0; font-size:10pt; color:#40495c; }
+.totals .row.tot { border-top:2px solid #0B1A3E; margin-top:1.5mm; padding-top:3mm; font-weight:800; font-size:12.5pt; color:#0B1A3E; }
+.note { margin:11mm 18mm 0; font-size:8pt; color:#8a94a6; border-top:1px solid #e6e9ef; padding-top:4mm; line-height:1.6; }
+.pagefoot { position:fixed; left:0; right:0; bottom:0; background:#0B1A3E; color:#9fb0cc; font-size:7.5pt; letter-spacing:0.3px; text-align:center; padding:3mm; }
+</style></head><body>
+  <div class="header">
+    <div class="row">
+      <div class="brand">BHV<b>Klaar</b>.nl<span class="tag">Certificering &amp; Opleidingen</span></div>
+      <div class="htitle"><h1>Betalingsbewijs</h1><div class="sub">Afschrift &middot; geen factuur</div></div>
+    </div>
+    <div class="accent"></div>
+  </div>
+  <div class="wrap">
+    <div class="metarow">
+      <div>Betaaldatum: <b>29-09-2026</b></div>
+      <div>Certificaatnummer: <b>WB-2026-00227-K6S3</b></div>
+    </div>
+    <div class="cards">
+      <div class="card pay"><div class="lbl">Betaald door</div><div class="nm">SammarZorgt</div><div class="val">KVK: 83539778 &middot; BTW-ID: NL003836018B54<br>IBAN: NL88 INGB 0008 2037 63<br>SammarZorgt@outlook.com &middot; 06 8796 4217</div></div>
+      <div class="card"><div class="lbl">Cursist</div><div class="nm">Khalid Sammar</div><div class="val">Geboortedatum: 20-03-2002</div></div>
+    </div>
+    <table>
+      <thead><tr><th>Omschrijving</th><th class="r">Bedrag</th></tr></thead>
+      <tbody><tr><td class="desc"><b>Professionele Weerbaarheid</b><div class="sub">Training incl. certificaat &middot; behaald 30-09-2026</div></td>
+        <td class="r">&euro;&nbsp;150,00</td></tr></tbody>
+    </table>
+    <div class="foot">
+      <div class="paid"><span class="badge">&#10003; Voldaan</span><div class="pdate">Betaling ontvangen op 29-09-2026</div></div>
+      <div class="totals">
+        <div class="row"><span>Subtotaal</span><span>&euro;&nbsp;150,00</span></div>
+        <div class="row"><span>BTW (vrijgesteld)</span><span>&euro;&nbsp;0,00</span></div>
+        <div class="row tot"><span>Totaal voldaan</span><span>&euro;&nbsp;150,00</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="note">Dit is een betalingsbewijs (afschrift) van een reeds voldane betaling &mdash; dit is geen factuur.
+    De opleiding valt onder de btw-vrijstelling voor onderwijs (art. 11 lid 1 o Wet OB); er is geen btw in rekening gebracht.</div>
+  <div class="pagefoot">BHVKlaar.nl &mdash; Onderdeel van Novasphere &nbsp;&middot;&nbsp; Ambachtweg 50, 3542 DH Utrecht &nbsp;&middot;&nbsp; +31 6 49820638 &nbsp;&middot;&nbsp; info@bhvklaar.nl &nbsp;&middot;&nbsp; bhvklaar.nl</div>
+</body></html>
