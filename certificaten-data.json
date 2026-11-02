@@ -6637,5 +6637,35 @@
     "geldig_tot": "03-11-2028",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00551-R6D1": {
+    "naam": "Rasit Can Dellal",
+    "geboortedatum": "20-11-2000",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00551",
+    "behaald": "02-11-2026",
+    "geldig_tot": "02-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00261-R6D1": {
+    "naam": "Rasit Can Dellal",
+    "geboortedatum": "20-11-2000",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00261",
+    "behaald": "02-11-2026",
+    "geldig_tot": "02-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00252-R6D1": {
+    "naam": "Rasit Can Dellal",
+    "geboortedatum": "20-11-2000",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00252",
+    "behaald": "02-11-2026",
+    "geldig_tot": "02-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
