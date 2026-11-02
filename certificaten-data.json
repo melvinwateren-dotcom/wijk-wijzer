@@ -6627,5 +6627,15 @@
     "geldig_tot": "30-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "VTV-2026-00038-A9F4": {
+    "naam": "Aglaia Fris",
+    "geboortedatum": "04-10-1985",
+    "cursus": "Verpleegtechnische Vaardigheden",
+    "certificaatnummer": "VTV-2026-00038",
+    "behaald": "03-11-2026",
+    "geldig_tot": "03-11-2028",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
