@@ -6717,5 +6717,25 @@
     "geldig_tot": "27-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "DEW-2026-00035-M4A3": {
+    "naam": "Mohammed Al-Mukhtar",
+    "geboortedatum": "08-08-1995",
+    "cursus": "De-escalerend Werken",
+    "certificaatnummer": "DEW-2026-00035",
+    "behaald": "02-11-2026",
+    "geldig_tot": "02-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00263-M4A3": {
+    "naam": "Mohammed Al-Mukhtar",
+    "geboortedatum": "08-08-1995",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00263",
+    "behaald": "02-11-2026",
+    "geldig_tot": "02-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
