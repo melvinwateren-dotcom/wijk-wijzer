@@ -6777,5 +6777,25 @@
     "geldig_tot": "03-11-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "INS-2026-00060-E9Q6": {
+    "naam": "Edolinda Qorraj",
+    "geboortedatum": "29-10-2000",
+    "cursus": "Diabeteszorg",
+    "certificaatnummer": "INS-2026-00060",
+    "behaald": "03-11-2026",
+    "geldig_tot": "03-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00264-E9Q6": {
+    "naam": "Edolinda Qorraj",
+    "geboortedatum": "29-10-2000",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00264",
+    "behaald": "03-11-2026",
+    "geldig_tot": "03-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
