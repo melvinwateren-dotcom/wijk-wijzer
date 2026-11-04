@@ -166,6 +166,11 @@ BHVKlaar.nl
 info@bhvklaar.nl
 ```
 
+Voor een **HTML-e-mail** in huisstijl gebruik je `template-email-certificaat.html`
+(certificaten versturen) of `template-email-afspraakbevestiging-bhv.html`
+(afspraakbevestiging BHV-cursus). Vul de hoofdletter-placeholders in; beide hebben al
+het nieuwe telefoonnummer 085 303 5849.
+
 ## Belangrijk
 
 - Certificaten zijn HTML-bestanden, ontworpen voor A4 liggend (landscape) printen
