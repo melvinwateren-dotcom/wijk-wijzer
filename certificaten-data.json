@@ -6901,5 +6901,35 @@
     "geldig_tot": "29-10-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00267-O9S6": {
+    "naam": "Oualid Sokhal",
+    "geboortedatum": "17-01-2006",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00267",
+    "behaald": "19-10-2026",
+    "geldig_tot": "19-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "BHV-2026-00560-O9S6": {
+    "naam": "Oualid Sokhal",
+    "geboortedatum": "17-01-2006",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00560",
+    "behaald": "26-10-2026",
+    "geldig_tot": "26-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00253-O9S6": {
+    "naam": "Oualid Sokhal",
+    "geboortedatum": "17-01-2006",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00253",
+    "behaald": "29-10-2026",
+    "geldig_tot": "29-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
