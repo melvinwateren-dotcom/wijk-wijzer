@@ -103,9 +103,15 @@ omhoog. De tabel hierboven is een momentopname — `certificaten-data.json` is l
 
 - **Bedrijf:** BHVKlaar.nl – Onderdeel van Novasphere
 - **Adres:** Ambachtweg 50, 3542 DH Utrecht
-- **Tel:** +31 6 49820638
+- **Tel:** 085 303 5849
 - **Email:** info@bhvklaar.nl
 - **Plaats op certificaat:** Utrecht
+
+> Telefoonnummer gewijzigd per 04-11-2026. De oude nummers (+31 6 49820638 en
+> +31 6 85489411) staan nog op eerder uitgegeven documenten; die blijven zoals ze
+> verstuurd zijn. Maak je een nieuw document (factuur, betalingsbewijs, e-mail,
+> e-learning-certificaat) op basis van een eerder document, vervang het oude
+> nummer dan altijd door 085 303 5849.
 
 ## QR-code (verificatie)
 
@@ -156,7 +162,7 @@ Mocht je vragen hebben, neem gerust contact op.
 Met vriendelijke groet,
 Ilias El Allati
 BHVKlaar.nl
-+31 6 49820638
+085 303 5849
 info@bhvklaar.nl
 ```
 
