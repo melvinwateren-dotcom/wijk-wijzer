@@ -176,3 +176,4 @@ het nieuwe telefoonnummer 085 303 5849.
 - Certificaten zijn HTML-bestanden, ontworpen voor A4 liggend (landscape) printen
 - Gebruik altijd UTF-8 encoding bij het opslaan
 - Wijzig NOOIT de CSS, SVG-graphics, of layout — alleen de persoonlijke gegevens invullen
+- Kies je zelf (willekeurige) behaaldatums, gebruik dan alleen werkdagen (ma–vr), nooit een weekend
