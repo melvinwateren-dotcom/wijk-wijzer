@@ -7041,5 +7041,45 @@
     "geldig_tot": "06-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00270-A3A6": {
+    "naam": "Ayoub Akchaoi",
+    "geboortedatum": "09-03-2001",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00270",
+    "behaald": "20-10-2026",
+    "geldig_tot": "20-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "AGR-2026-00040-S3S8": {
+    "naam": "Sheila Sussenbach",
+    "geboortedatum": "13-01-1978",
+    "cursus": "Agressiehantering",
+    "certificaatnummer": "AGR-2026-00040",
+    "behaald": "06-11-2026",
+    "geldig_tot": "06-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "EPI-2026-00266-S3S8": {
+    "naam": "Sheila Sussenbach",
+    "geboortedatum": "13-01-1978",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00266",
+    "behaald": "05-11-2026",
+    "geldig_tot": "05-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "TIL-2026-00043-S3S8": {
+    "naam": "Sheila Sussenbach",
+    "geboortedatum": "13-01-1978",
+    "cursus": "Werken met Tilliften",
+    "certificaatnummer": "TIL-2026-00043",
+    "behaald": "05-11-2026",
+    "geldig_tot": "05-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
