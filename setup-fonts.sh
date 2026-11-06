@@ -6,7 +6,10 @@
 set -euo pipefail
 
 echo ">> Python-pakketten (WeasyPrint + qrcode + pillow)"
-pip3 install --quiet --disable-pip-version-check weasyprint qrcode pillow
+# python3 -m pip: 'pip3' hoort in deze containers soms bij een andere Python-versie.
+# Eigen Pillow forceren: de systeem-Pillow is voor een andere Python gebouwd.
+python3 -m pip install --quiet --disable-pip-version-check weasyprint qrcode pymupdf
+python3 -m pip install --quiet --disable-pip-version-check --ignore-installed pillow
 
 echo ">> Lettertypes ophalen via npm (bevatten .ttf-bestanden)"
 TMP="$(mktemp -d)"
