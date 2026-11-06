@@ -7021,5 +7021,25 @@
     "geldig_tot": "09-11-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00565-L6L6": {
+    "naam": "Lowuina Lopes",
+    "geboortedatum": "03-03-1994",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00565",
+    "behaald": "03-11-2026",
+    "geldig_tot": "03-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "BHV-2026-00566-Y5C0": {
+    "naam": "Younes Chouay",
+    "geboortedatum": "07-05-2002",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00566",
+    "behaald": "06-11-2026",
+    "geldig_tot": "06-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
