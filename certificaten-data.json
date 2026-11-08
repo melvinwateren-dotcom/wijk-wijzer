@@ -7081,5 +7081,25 @@
     "geldig_tot": "05-11-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00567-K0B8": {
+    "naam": "Karima Bouzaggaoui",
+    "geboortedatum": "01-02-1990",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00567",
+    "behaald": "12-10-2026",
+    "geldig_tot": "12-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00271-K0B8": {
+    "naam": "Karima Bouzaggaoui",
+    "geboortedatum": "01-02-1990",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00271",
+    "behaald": "21-10-2026",
+    "geldig_tot": "21-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
