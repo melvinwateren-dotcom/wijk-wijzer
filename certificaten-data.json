@@ -7101,5 +7101,35 @@
     "geldig_tot": "21-10-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00568-A1S8": {
+    "naam": "Abdulrisak Suge",
+    "geboortedatum": "20-02-1996",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00568",
+    "behaald": "10-11-2026",
+    "geldig_tot": "10-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00272-A1S8": {
+    "naam": "Abdulrisak Suge",
+    "geboortedatum": "20-02-1996",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00272",
+    "behaald": "10-11-2026",
+    "geldig_tot": "10-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "AGR-2026-00041-A1S8": {
+    "naam": "Abdulrisak Suge",
+    "geboortedatum": "20-02-1996",
+    "cursus": "Agressiehantering",
+    "certificaatnummer": "AGR-2026-00041",
+    "behaald": "12-11-2026",
+    "geldig_tot": "12-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
