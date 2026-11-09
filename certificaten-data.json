@@ -7151,5 +7151,25 @@
     "geldig_tot": "11-11-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00569-B6O3": {
+    "naam": "Barsengi Amer Omar",
+    "geboortedatum": "10-05-1998",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00569",
+    "behaald": "11-11-2026",
+    "geldig_tot": "11-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "BHV-2026-00570-E0S4": {
+    "naam": "Edgar Shiroyan",
+    "geboortedatum": "07-10-1988",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00570",
+    "behaald": "01-12-2026",
+    "geldig_tot": "01-12-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
