@@ -7131,5 +7131,25 @@
     "geldig_tot": "12-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "INS-2026-00062-D1M1": {
+    "naam": "Debryen Martina",
+    "geboortedatum": "23-04-1993",
+    "cursus": "Diabeteszorg",
+    "certificaatnummer": "INS-2026-00062",
+    "behaald": "09-11-2026",
+    "geldig_tot": "09-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "EPI-2026-00267-D1M1": {
+    "naam": "Debryen Martina",
+    "geboortedatum": "23-04-1993",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00267",
+    "behaald": "11-11-2026",
+    "geldig_tot": "11-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
