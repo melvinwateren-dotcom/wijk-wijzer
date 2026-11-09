@@ -7181,5 +7181,25 @@
     "geldig_tot": "09-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "WB-2026-00255-I7C0": {
+    "naam": "Ibiscan Ceyhan",
+    "geboortedatum": "18-06-1997",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00255",
+    "behaald": "10-11-2026",
+    "geldig_tot": "10-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00273-I7C0": {
+    "naam": "Ibiscan Ceyhan",
+    "geboortedatum": "18-06-1997",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00273",
+    "behaald": "11-11-2026",
+    "geldig_tot": "11-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
