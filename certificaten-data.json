@@ -7231,5 +7231,25 @@
     "geldig_tot": "10-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "ADL-2026-00043-S5K6": {
+    "naam": "Samira Kasmi",
+    "geboortedatum": "06-07-1993",
+    "cursus": "ADL-ondersteuning",
+    "certificaatnummer": "ADL-2026-00043",
+    "behaald": "05-10-2026",
+    "geldig_tot": "05-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00256-A8P5": {
+    "naam": "Amar de Priester",
+    "geboortedatum": "14-05-1996",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00256",
+    "behaald": "09-11-2026",
+    "geldig_tot": "09-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
