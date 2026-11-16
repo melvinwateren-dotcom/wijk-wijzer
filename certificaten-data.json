@@ -7482,5 +7482,35 @@
     "geldig_tot": "11-11-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00580-Z6B8": {
+    "naam": "Zakaria Bougssib",
+    "geboortedatum": "13-12-1998",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00580",
+    "behaald": "11-11-2026",
+    "geldig_tot": "11-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00260-Z6B8": {
+    "naam": "Zakaria Bougssib",
+    "geboortedatum": "13-12-1998",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00260",
+    "behaald": "11-11-2026",
+    "geldig_tot": "11-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00280-Z6B8": {
+    "naam": "Zakaria Bougssib",
+    "geboortedatum": "13-12-1998",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00280",
+    "behaald": "13-11-2026",
+    "geldig_tot": "13-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
