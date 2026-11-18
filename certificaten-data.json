@@ -7553,5 +7553,25 @@
     "geldig_tot": "18-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00582-Y5H0": {
+    "naam": "Yassin Hazzat",
+    "geboortedatum": "20-06-2005",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00582",
+    "behaald": "30-11-2026",
+    "geldig_tot": "30-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00261-Y5H0": {
+    "naam": "Yassin Hazzat",
+    "geboortedatum": "20-06-2005",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00261",
+    "behaald": "30-11-2026",
+    "geldig_tot": "30-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
