@@ -7543,5 +7543,15 @@
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht",
     "opmerking": "Voorbeeldcertificaat (geen echte deelnemer)"
+  },
+  "AGR-2026-00042-R5E6": {
+    "naam": "Redouan Elkarouani",
+    "geboortedatum": "02-12-2003",
+    "cursus": "Agressiehantering",
+    "certificaatnummer": "AGR-2026-00042",
+    "behaald": "18-11-2026",
+    "geldig_tot": "18-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
