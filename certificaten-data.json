@@ -7573,5 +7573,15 @@
     "geldig_tot": "30-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "AGR-2026-00043-D8B2": {
+    "naam": "Dirk Boateng",
+    "geboortedatum": "06-03-2003",
+    "cursus": "Agressiehantering",
+    "certificaatnummer": "AGR-2026-00043",
+    "behaald": "27-10-2026",
+    "geldig_tot": "27-10-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
