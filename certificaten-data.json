@@ -7653,5 +7653,15 @@
     "geldig_tot": "23-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "MED-2026-00283-A8C2": {
+    "naam": "Amine Chahbari",
+    "geboortedatum": "25-07-2000",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00283",
+    "behaald": "22-07-2026",
+    "geldig_tot": "22-07-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
