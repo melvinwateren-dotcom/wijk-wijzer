@@ -7913,5 +7913,25 @@
     "geldig_tot": "24-09-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "MA-2026-00034-C8K5": {
+    "naam": "Charmila Khoesial",
+    "geboortedatum": "10-06-1983",
+    "cursus": "Medicatie Aanreiken",
+    "certificaatnummer": "MA-2026-00034",
+    "behaald": "01-10-2026",
+    "geldig_tot": "01-10-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "VTV-2026-00046-C8K5": {
+    "naam": "Charmila Khoesial",
+    "geboortedatum": "10-06-1983",
+    "cursus": "Verpleegtechnische Vaardigheden",
+    "certificaatnummer": "VTV-2026-00046",
+    "behaald": "01-10-2026",
+    "geldig_tot": "01-10-2028",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
