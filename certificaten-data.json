@@ -7933,5 +7933,55 @@
     "geldig_tot": "01-10-2028",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00596-L0B1": {
+    "naam": "Latifa Bellari",
+    "geboortedatum": "16-03-1981",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00596",
+    "behaald": "04-11-2026",
+    "geldig_tot": "04-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "VTV-2026-00047-L0B1": {
+    "naam": "Latifa Bellari",
+    "geboortedatum": "16-03-1981",
+    "cursus": "Verpleegtechnische Vaardigheden",
+    "certificaatnummer": "VTV-2026-00047",
+    "behaald": "10-11-2026",
+    "geldig_tot": "10-11-2028",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "MA-2026-00035-L0B1": {
+    "naam": "Latifa Bellari",
+    "geboortedatum": "16-03-1981",
+    "cursus": "Medicatie Aanreiken",
+    "certificaatnummer": "MA-2026-00035",
+    "behaald": "10-11-2026",
+    "geldig_tot": "10-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "EHBO-2026-00018-L0B1": {
+    "naam": "Latifa Bellari",
+    "geboortedatum": "16-03-1981",
+    "cursus": "Eerste Hulp Bij Ongelukken (EHBO)",
+    "certificaatnummer": "EHBO-2026-00018",
+    "behaald": "13-11-2026",
+    "geldig_tot": "13-11-2028",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "EPI-2026-00269-L0B1": {
+    "naam": "Latifa Bellari",
+    "geboortedatum": "16-03-1981",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00269",
+    "behaald": "13-11-2026",
+    "geldig_tot": "13-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
