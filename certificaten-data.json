@@ -8013,5 +8013,25 @@
     "geldig_tot": "26-11-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "BHV-2026-00598-S2H5": {
+    "naam": "Solsiree Abdul Hamid",
+    "geboortedatum": "27-11-1977",
+    "cursus": "BHV / Bedrijfshulpverlening",
+    "certificaatnummer": "BHV-2026-00598",
+    "behaald": "03-12-2026",
+    "geldig_tot": "03-12-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "WB-2026-00265-S2H5": {
+    "naam": "Solsiree Abdul Hamid",
+    "geboortedatum": "27-11-1977",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2026-00265",
+    "behaald": "03-12-2026",
+    "geldig_tot": "03-12-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
