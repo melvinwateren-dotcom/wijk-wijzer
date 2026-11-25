@@ -7993,5 +7993,25 @@
     "geldig_tot": "24-11-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "TRC-2026-00035-D3V6": {
+    "naam": "Djenai Trishala Vyent",
+    "geboortedatum": "18-06-1997",
+    "cursus": "Triple-C Methodiek",
+    "certificaatnummer": "TRC-2026-00035",
+    "behaald": "25-11-2026",
+    "geldig_tot": "25-11-2027",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
+  },
+  "EPI-2026-00270-D3V6": {
+    "naam": "Djenai Trishala Vyent",
+    "geboortedatum": "18-06-1997",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00270",
+    "behaald": "26-11-2026",
+    "geldig_tot": "26-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
