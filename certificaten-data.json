@@ -8103,5 +8103,15 @@
     "geldig_tot": "17-11-2027",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "WB-2027-00295-A3B5": {
+    "naam": "Aziz Ballouk",
+    "geboortedatum": "22-03-1991",
+    "cursus": "Professionele Weerbaarheid",
+    "certificaatnummer": "WB-2027-00295",
+    "behaald": "05-01-2027",
+    "geldig_tot": "05-01-2028",
+    "instructeur": "Ilias El Allati",
+    "plaats": "Utrecht"
   }
 }
