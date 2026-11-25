@@ -8063,5 +8063,15 @@
     "geldig_tot": "02-12-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "EPI-2026-00271-R4H9": {
+    "naam": "Richard Hartog",
+    "geboortedatum": "11-04-2000",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00271",
+    "behaald": "01-12-2026",
+    "geldig_tot": "01-12-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
