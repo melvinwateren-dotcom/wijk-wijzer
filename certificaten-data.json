@@ -8214,5 +8214,15 @@
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht",
     "opmerking": "Voorbeeldcertificaat (geen echte deelnemer)"
+  },
+  "ADL-2026-00045-A5B9": {
+    "naam": "Aybuke Selver Baser",
+    "geboortedatum": "01-02-2004",
+    "cursus": "ADL-ondersteuning",
+    "certificaatnummer": "ADL-2026-00045",
+    "behaald": "27-11-2026",
+    "geldig_tot": "27-11-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
