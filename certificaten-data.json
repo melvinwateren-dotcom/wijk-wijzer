@@ -8183,5 +8183,25 @@
     "geldig_tot": "27-11-2028",
     "instructeur": "Wendy Tiemens",
     "plaats": "Utrecht"
+  },
+  "EPI-2026-00273-E1B2": {
+    "naam": "Ertan Bilge",
+    "geboortedatum": "08-03-1977",
+    "cursus": "Epilepsiezorg",
+    "certificaatnummer": "EPI-2026-00273",
+    "behaald": "11-12-2026",
+    "geldig_tot": "11-12-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
+  },
+  "MED-2026-00287-E1B2": {
+    "naam": "Ertan Bilge",
+    "geboortedatum": "08-03-1977",
+    "cursus": "Medicatie & Medicatieveiligheid",
+    "certificaatnummer": "MED-2026-00287",
+    "behaald": "23-12-2026",
+    "geldig_tot": "23-12-2027",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
