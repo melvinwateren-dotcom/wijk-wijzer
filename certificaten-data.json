@@ -8153,5 +8153,15 @@
     "geldig_tot": "01-12-2027",
     "instructeur": "Ilias El Allati",
     "plaats": "Utrecht"
+  },
+  "VTV-2026-00049-M2V7": {
+    "naam": "Marcel Guno Vrij",
+    "geboortedatum": "21-05-1973",
+    "cursus": "Verpleegtechnische Vaardigheden",
+    "certificaatnummer": "VTV-2026-00049",
+    "behaald": "05-10-2026",
+    "geldig_tot": "05-10-2028",
+    "instructeur": "Wendy Tiemens",
+    "plaats": "Utrecht"
   }
 }
